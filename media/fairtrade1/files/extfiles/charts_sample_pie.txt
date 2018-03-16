@@ -1,0 +1,20 @@
+{
+  "bg_colour":"#ffffff",
+  "x_axis": null,
+  
+  "elements":[
+    {
+      "type":      "pie",
+      "colours":   ["#52A8FA","#71BF41","#FBE138","#EF9533"],
+      "alpha":     0.6,
+      "border":    2,
+      "values" :   [
+        {"value":91,"label":"April"},
+        {"value":76,"label":"May"},
+        {"value":28,"label":"June"},
+        {"value":26,"label":"July"}
+      ]	  
+    }
+  ]
+
+}

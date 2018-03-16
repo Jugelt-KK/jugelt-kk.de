@@ -1,0 +1,376 @@
+/**
+	Extended - HTML5 creative Portfolio Template
+ 	Copyright (c) 2015, Subramanian 
+
+	Author: Subramanian
+    Profile: themeforest.net/user/FMedia/
+	
+    Version: 1.0.0
+	Release Date: March 2015
+	
+**/
+
+
+/* 	NOTES:
+	Add font face style
+	Body fonts are droidsans family and sans-serif. The droidsans font is named as body_font in font-family style
+	Header fonts are Philosopher family, 'Trebuchet MS' and sans-serif. The Philosopher font is named as header_font in font-family style
+	So you can easily change the font if you need
+*/
+
+/*------------------------------------------------------------------
+Table of contents
+
+	#Body font							-	Set body fonts using font-face style
+	#Header font						-	Set header fonts using font-face style
+	#Body and h1,h2.., title 			-	Body, h1,h2.. and title font styles are placed here
+	#largeText_boxed text 				-	Large boxed text font styles are placed here
+	#Blog comment 						-	Blog comment text font styles are placed here
+	#Twitter 							-	Twitter text font styles are placed here
+	#Flexslider							-	Flexslider	text font styles are placed here
+	#Section title						-	Section title text font styles are placed here
+	#Carousel Thumbnail					-	Carousel Thumbnail text font styles are placed here
+	#Accordion 							-	Accordion item text font styles are placed here
+	#Tabs 								-	Tabs text font styles are placed here
+	#Title top 							-	Top title font styles are placed here
+	#Thumbnail item 					-	Thumbnail item text font styles are placed here
+	#Portfolio options 					-	Portfolio category text font styles are placed here
+	#Pricing table 						-	Pricing table text font styles are placed here
+	#Blog tools 						-	Blog post details tools text font styles are placed here
+	#Image/content popup overlay		-	popup overlay content text font styles are placed here
+	#fxButton 							-	fxButton text font styles are placed here
+	#Contactus comment form 			-	Contactus comment form font styles are placed here
+	#Boxed link tags 					-	Boxed type link tags text font styles are placed here
+*/
+
+
+/* #Body font */	
+	@font-face {
+		font-family: 'body_font';
+		src: url('../fonts/droidsans-webfont.eot');
+		src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/droidsans-webfont.woff') format('woff'),
+			 url('../fonts/droidsans-webfont.ttf') format('truetype'),
+			 url('../fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
+		font-weight: 400;
+		font-style: normal;	
+		}
+
+	@font-face {
+		font-family: 'body_font';
+		src: url('../fonts/droidsans-bold-webfont.eot');
+		src: url('../fonts/droidsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/droidsans-bold-webfont.woff') format('woff'),
+			 url('../fonts/droidsans-bold-webfont.ttf') format('truetype'),
+			 url('../fonts/droidsans-bold-webfont.svg#droid_sansbold') format('svg');
+		font-weight: 700;
+		font-style: normal;	
+		}
+
+
+/* #Header font */
+	
+	@font-face {
+		font-family: 'header_font';
+		src: url('../fonts/raleway-light-webfont.eot');
+		src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-light-webfont.woff') format('woff'),
+			 url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+		font-weight: 300;
+		font-style: normal;	
+		}
+	
+	@font-face {
+		font-family: 'header_font';
+		src: url('../fonts/raleway-regular-webfont.eot');
+		src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-regular-webfont.woff') format('woff'),
+			 url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+		font-weight: 400;
+		font-style: normal;	
+		}
+	
+	@font-face {
+		font-family: 'header_font';
+		src: url('../fonts/raleway-medium-webfont.eot');
+		src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-medium-webfont.woff') format('woff'),
+			 url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+		font-weight: 500;
+		font-style: normal;	
+		}
+	
+	@font-face {
+		font-family: 'header_font';
+		src: url('../fonts/raleway-semibold-webfont.eot');
+		src: url('../fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-semibold-webfont.woff') format('woff'),
+			 url('../fonts/raleway-semibold-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+		font-weight: 600;
+		font-style: normal;	
+		}
+		
+	@font-face {
+		font-family: 'header_font';
+		src: url('../fonts/raleway-bold-webfont.eot');
+		src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-bold-webfont.woff') format('woff'),
+			 url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+		font-weight: 700;
+		font-style: normal;	
+		}
+	
+	
+	@font-face {
+		font-family: 'header_font';
+		src: url('../fonts/raleway-extrabold-webfont.eot');
+		src: url('../fonts/raleway-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-extrabold-webfont.woff') format('woff'),
+			 url('../fonts/raleway-extrabold-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-extrabold-webfont.svg#ralewayextrabold') format('svg');
+		font-weight: 800;
+		font-style: normal;	
+		}
+		
+
+/* #Thin font */
+
+	@font-face {
+		font-family: 'thin_font';
+		src: url('../fonts/raleway-light-webfont.eot');
+		src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/raleway-light-webfont.woff') format('woff'),
+			 url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+			 url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
+		font-weight: 300;
+		font-style: normal;	
+	}		
+		
+/* End Font face style */		
+
+	
+
+/* #Body and h1,h2.., title font style */
+	
+	body { 
+		font-family: 'body_font', sans-serif; 
+		line-height: 18px; 
+		font-weight: 400; 
+		}
+	
+	.smartMenu_btn .menu_title{ font-family: 'header_font', 'Trebuchet MS', sans-serif; }
+	
+	h1, h2, h3, h4, h5 { 
+		font-family: 'header_font', 'Trebuchet MS', sans-serif; 
+		text-transform: none;
+		}
+	
+	h6  { 
+		font-family: 'body_font', sans-serif;
+		}
+		
+	.mini_description {
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+		
+	p { font-family: 'body_font', sans-serif; }
+	
+	.header_content ul li a, 
+	.header_content ul li ul li a,
+	.header .header_content ul li ul li a { 
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+	
+	.fontFamily_1{ 
+		font-family: 'header_font', 'Trebuchet MS', sans-serif; 
+		}
+		
+	.fontFamily_2{ 
+		font-family: 'body_font', sans-serif; 
+		}
+		
+	.title_text { 
+		font-family: 'body_font', sans-serif; 
+		}
+		 		
+	.title_text_large { 
+		font-family: 'header_font', 'Trebuchet MS', sans-serif; 
+		}
+
+	a.button.bannerType{ 	
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+
+	.fxButton{ font-family: 'body_font', sans-serif; }
+	
+/* #largeText_boxed text font style */		
+	.largeText_boxed, .largeText_borderBoxed{
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+		
+	.button.large, button.large{
+		font-family: 'body_font', sans-serif;
+		}
+
+/* #Blog comment font style */		
+	.comment .comment-aut .reply{
+		font-family: 'body_font', sans-serif;
+		}		
+	.comment .comment-area p{ 
+		font-family: 'body_font', sans-serif;
+		}
+		
+	.num_likes{ font-family: 'body_font', sans-serif; }	
+
+/* #Twitter font style */		
+	.tweet-wrapper span.time {  
+		font-family: 'body_font', sans-serif !important; 
+		}
+	.tweet-wrapper span.user {  
+		font-family: 'body_font', sans-serif !important; 
+		}
+
+/* #Flexslider font style */		
+	.flex_slideshow_tweet .slides li .tweet-wrapper .text { 
+		font-family: 'body_font', sans-serif; font-size:18px !important; 
+		}	
+	.flex_slideshow_tweet .slides li .tweet-wrapper h6  { 
+		font-family: 'body_font', sans-serif; font-size:14px !important; 
+		}
+
+/* #Section title font style */		
+	.sec_title{ 
+		font-family: 'body_font', 'Trebuchet MS', sans-serif; 
+		}
+
+
+/* #Carousel Thumbnail font style */	
+	.thumbItem_holder .carousel_thumbails .thumbItem h3{
+		font-family: 'body_font', sans-serif;
+		}
+	.withoutThumb ul.carousel_thumbails li:before{
+		font-family: 'body_font';
+		}
+
+/* #Tabs font style */	
+	.nav-tabs > li a{
+		font-family: 'body_font', sans-serif;
+		}
+	.fullScreenGallery_thumbnails a.fxEmbossBtn{	
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+
+		
+	.homeSlider h1 { 
+		font-family: 'header_font', sans-serif; text-transform: none; 
+		}
+		
+/* #Title top font style */			
+	.title_top h4, .title_bottom h4 { font-family: 'header_font', sans-serif; }
+
+
+/* #Thumbnail item font style */			
+	.item .text_field{
+		font-family: 'body_font', sans-serif;
+		}
+	.item_sub_title {
+		font-family: 'body_font', sans-serif;
+		}
+	.linkText{
+		font-family: 'body_font', sans-serif;		
+		}
+		
+	.view h2 {		
+		font-family: 'body_font', sans-serif;
+		}
+
+/* #Portfolio options font style */	
+		
+	.options_title, .options_title h6{
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+		
+	a.next_button_pro, a.previous_button_pro, a.close_button_pro{		
+		font-family: 'body_font', sans-serif;
+		}
+		
+	.sliderNumber_pro{
+		font-family: 'body_font', sans-serif;
+		}
+	
+	.item .text_field h5 {
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+		
+/* #Pricing table font style */			
+	.pricing-table h2 {	
+		font-family: 'body_font', sans-serif;
+		}
+		
+	.pricing-table h2 .title{
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-size: 22px;
+		}
+		
+	.pricing-table h2 .price_circle {
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+
+/* #Blog tools font style */		
+	ul.tools li {
+		font-family: 'body_font', sans-serif;
+		}
+	
+	ul.tools.large li {
+		font-size: 18px;
+		font-weight: 700;
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		}
+			
+	.readMore{
+		font-family: 'header_font', 'Trebuchet MS', sans-serif;
+		font-weight: 700;
+		}
+
+/* #Image/content popup overlay font style */		
+	.itemOver .overlay .popup_overlay .popup_foot h4{
+		font-family: 'body_font', sans-serif;	
+		}
+		
+	.item_feature>li .title{
+		font-family: 'body_font', sans-serif;
+		}	
+
+
+	.top_heading, .mini_heading, .heading_doubleBorder{ font-family: 'header_font', 'Trebuchet MS', sans-serif; }
+	
+	.mini_heading.small { font-family: "body_font", sans-serif; }
+	
+	.s_divider.itemOver .popup_overlay .popup_head h4{ font-family: 'body_font', sans-serif; }
+	.services_list2 h3 { font-family: 'header_font', sans-serif; }
+	
+	.num_likes{ font-family: 'body_font', sans-serif; }
+	
+	
+	 .historyline > li > .historyline-date {  font-family: 'header_font', 'Trebuchet MS', sans-serif; }
+	 
+/* #fxButton font style */	
+	.fxButton .btn_icon h5:nth-child(1),
+	.fxButton .btn_icon h5:nth-child(2) {
+		font-family: 'body_font', 'Trebuchet MS', sans-serif;
+		}
+		
+/* #Contactus comment form font style */	
+	.comments-form label {
+		font-family: 'header_font', sans-serif;
+		}
+		
+/* #Boxed link tags font style */
+	.boxed_links a {
+		font-family: 'body_font', sans-serif;
+		}

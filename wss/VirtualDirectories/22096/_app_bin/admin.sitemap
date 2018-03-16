@@ -1,0 +1,150 @@
+<siteMap enableLocalization="true">
+  <siteMapNode title="" url="/">
+    <siteMapNode title="$Resources:spadmin,applications_pagetitle" url="applications.aspx">
+      <siteMapNode title="$Resources:spadmin,application_associations_pagetitle" url="/_admin/applicationassociations.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_ManageContentDatabases_Title" url="/_admin/CNTDBADM.aspx">
+        <siteMapNode title="$Resources:spadmin,newcntdb_pagetitle" url="/_admin/newcntdb.aspx" />
+        <siteMapNode title="$Resources:spadmin,oldcntdb_pagetitle" url="/_admin/oldcntdb.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_CreateSite_Title" url="/_admin/createsite.aspx">
+        <siteMapNode title="$Resources:spadmin,SiteCreated_PageTitle" url="/_admin/SiteCreated.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_DefaultDatabase_Title" url="/_admin/defaultcontentdb.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_SiteUse_Title" url="/_admin/DeleteSiteConfig.aspx" />
+      <siteMapNode title="$Resources:spadmin,deletewebapp_pagetitle" url="/_admin/DeleteWebApplication.aspx" />
+      <siteMapNode title="$Resources:spadmin,DeleteSite_PageTitle" url="/_admin/delsite.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_DataRetrieval_Title" url="/_admin/DspSettings.aspx" />
+      <siteMapNode title="$Resources:spadmin,extendvsoption_pagetitle" url="/_admin/extendvsoption.aspx">
+        <siteMapNode title="$Resources:spadmin,extendvs_PageTitle" url="/_admin/extendvs.aspx">
+          <siteMapNode title="$Resources:spadmin,applicationcreated_pagetitle" url="/_admin/applicationcreated.aspx" />
+        </siteMapNode>
+        <siteMapNode title="$Resources:spadmin,extendwebfarm_PageTitle" url="/_admin/extendwebfarm.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_QuotaDefinition_Title" url="/_admin/ManageQuotaTemplate.aspx" />
+      <siteMapNode title="$Resources:spadmin,ManageWebAppFeatures_pagetitle" url="/_admin/ManageWebAppFeatures.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_SiteAdministrators_Title" url="/_admin/owners.aspx" />
+      <siteMapNode title="$Resources:spadmin,scprefix_pagetitle" url="/_admin/scprefix.aspx" />
+      <siteMapNode title="$Resources:spadmin,svcappsadm_pagetitle" url="/_admin/ServiceApplications.aspx">
+        <siteMapNode title="$Resources:spadmin,BDC_Applications" url="/_admin/bdc/BDCApplications.aspx" requiredParameters="AppId">
+          <siteMapNode title="$Resources:spadmin,BDC_AddApplication" url="/_admin/bdc/AddBDCApplication.aspx" />
+          <siteMapNode title="$Resources:spadmin,BDC_ExportApplication" url="/_admin/bdc/ExportBDCApplication.aspx" />
+          <siteMapNode title="$Resources:spadmin,BDC_ViewEntities" url="/_admin/bdc/ViewBDCApplication.aspx" requiredParameters="AppId,ModelName,LobName">
+            <siteMapNode title="$Resources:spadmin,BDC_ViewEntity" url="/_admin/bdc/ViewBDCEntity.aspx" requiredParameters="Name,Namespace,AppId,ModelName,LobName">
+              <siteMapNode title="$Resources:spadmin,BDC_AddAction_Title" url="/_admin/bdc/AddBDCAction.aspx" />
+              <siteMapNode title="$Resources:spadmin,BDC_EditAction_Title" url="/_admin/bdc/EditBDCAction.aspx" />
+            </siteMapNode>
+          </siteMapNode>
+          <siteMapNode title="$Resources:spadmin,BDC_ViewLOBSystems" url="/_admin/bdc/ViewBDCLobSystems.aspx" requiredParameters="AppId">
+            <siteMapNode title="$Resources:spadmin,BDC_ViewLOBSystemInstances" url="/_admin/bdc/ViewBDCLobSystemInstances.aspx" requiredParameters="AppId,LobName">
+              <siteMapNode title="$Resources:spadmin,BDC_LobSystemInstanceSettingPageTitle" url="/_admin/bdc/BDCLobSettings.aspx" />;
+            </siteMapNode>
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,sitecollections_pagetitle" url="/_admin/sitecollections.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitequota_pagetitle" url="/_admin/sitequota.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_Unextend_Title" url="/_admin/unextendvs.aspx" />
+      <siteMapNode title="$Resources:spadmin,vsemail_pageTitle" url="/_admin/VSEmail.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_GeneralSettings_Title" url="/_admin/vsgeneralsettings.aspx" />
+      <siteMapNode title="$Resources:spadmin,vsmask_PageTitle" url="/_admin/vsmask.aspx" />
+      <siteMapNode title="$Resources:spadmin,vsxms_pageTitle" url="/_admin/VSXms.aspx" />
+      <siteMapNode title="$Resources:spadmin,webapplications_pageTitle" url="/_admin/webapplications.aspx" />
+      <siteMapNode title="$Resources:spadmin,webapplications_pageTitle" url="/_admin/WebApplicationList.aspx" />
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,configurationwizards_pagetitle" url="configurationwizards.aspx">
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,generalapplicationsettings_pagetitle" url="generalapplicationsettings.aspx">
+      <siteMapNode title="$Resources:spadmin,doctransadmin_pagetitle" url="/_admin/DocTransAdmin.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_HtmlViewer_Title" url="/_admin/HtmlTransAdmin.aspx" />
+      <siteMapNode title="$Resources:spadmin,officialfileadmin_pagetitle" url="/_admin/OfficialFileAdmin.aspx" />
+      <siteMapNode title="$Resources:spadmin,sharepointdesigner_title" url="/_admin/SharePointDesignerAdmin.aspx" />
+      <siteMapNode title="$Resources:spadmin,workflowadmin_pageTitle" url="/_admin/workflowAdmin.aspx" />
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,backups_pagetitle" url="backups.aspx">
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_Backup_Title" url="/_admin/Backup.aspx">
+        <siteMapNode title="$Resources:spadmin,startbackup_PageTitle" url="/_admin/StartBackup.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,backuphistory_PageTitle" url="/_admin/BackupHistory.aspx">
+        <siteMapNode title="$Resources:spadmin,sitemap_Operations_Restore_Title" url="/_admin/Restore.aspx" />
+        <siteMapNode title="$Resources:spadmin,sitemap_Operations_Restore_Title" url="/_admin/RestoreStep3.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,backup_settings_PageTitle" url="/_admin/BackupSettings.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_BackupStatus_Title" url="/_admin/BackupStatus.aspx" />
+      <siteMapNode title="$Resources:spadmin,unattachedcontentdb_PageTitle" url="/_admin/UnattachedDbSelect.aspx" />
+      <siteMapNode title="$Resources:spadmin,SCBackupExportStatus_PageTitle" url="/_admin/SiteBackupOrExportStatus.aspx" />
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,monitoring_pagetitle" url="monitoring.aspx">
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_UsageAnalysis_Title" url="/_admin/LogUsage.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_HealthReport_Title" url="/_admin/HealthReport.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_DiagnosticLogging_Title" url="/_admin/metrics.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_PolicyRptConfiguration_Title" url="/_admin/policyRptConfig.aspx" />
+      <siteMapNode title="$Resources:spadmin,ServiceJobDefinitions_PageTitle" url="/_admin/ServiceJobDefinitions.aspx">
+        <siteMapNode title="$Resources:spadmin,JobEdit_PageTitle" url="/_admin/JobEdit.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,Timer_PageTitle" url="/_admin/Timer.aspx">
+        <siteMapNode title="$Resources:spadmin,ScheduledJobs_PageTitle" url="/_admin/ScheduledTimerJobs.aspx" />
+        <siteMapNode title="$Resources:spadmin,ServiceRunningJobs_PageTitle" url="/_admin/ServiceRunningJobs.aspx" />
+        <siteMapNode title="$Resources:spadmin,JobHistory_PageTitle" url="/_admin/TimerJobHistory.aspx" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,security_pagetitle" url="security.aspx">
+      <siteMapNode title="$Resources:spadmin,managedaccounts_pagetitle" url="/_admin/ManagedAccounts.aspx">
+        <siteMapNode title="$Resources:spadmin,registeraccount_pagetitle" url="/_admin/RegisterAccount.aspx" />
+        <siteMapNode title="$Resources:spadmin,manageaccount_pagetitle" url="/_admin/EditAccount.aspx" />
+        <siteMapNode title="$Resources:spadmin,removeaccount_pagetitle" url="/_admin/RemoveAccount.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_ServiceAccount_Title" url="/_admin/FarmCredentialManagement.aspx" />
+      <siteMapNode title="$Resources:spadmin,passwordsettings_pagetitle" url="/_admin/PasswordSettings.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_AuthenticationProviders_Title" url="/_admin/authenticationproviders.aspx">
+        <siteMapNode title="$Resources:spadmin,authentication_pagetitle" url="/_admin/Authentication.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,avadmin_pagetitle" url="/_admin/AVAdmin.aspx" />
+      <siteMapNode title="$Resources:spadmin,blockedfiletype_pagetitle" url="/_admin/BlockedFileType.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_SelfService_Title" url="/_admin/ConfigSSC.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_IRM_Title" url="/_admin/IrmAdmin.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Security_ManageTrust_Title" url="/_admin/ManageTrust.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_AdministrationRoles_Title" url="/_admin/people.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_ManagePolicy_Title" url="/_admin/policy.aspx">
+        <siteMapNode title="$Resources:spadmin,policyuser_PageTitle" url="/_admin/policyuser.aspx" />
+        <siteMapNode title="$Resources:spadmin,policyuseredit_PageTitle" url="/_admin/policyuseredit.aspx" />
+        <siteMapNode title="$Resources:spadmin,policyanon_PageTitle" url="/_admin/policyanon.aspx" />
+        <siteMapNode title="$Resources:spadmin,policyroles_PageTitle" url="/_admin/policyroles.aspx">
+          <siteMapNode title="$Resources:spadmin,policyrole_PageTitle" url="/_admin/policyrole.aspx" />
+          <siteMapNode title="$Resources:spadmin,policyroleedit_PageTitle" url="/_admin/policyroleedit.aspx" />
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_PolicyFeaturesConfig_Title" url="/_admin/policyfeatures.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_ApplicationManagement_WebPartSecurity_Title" url="/_admin/SPSecuritySettings.aspx" />
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,systemsettings_pagetitle" url="systemsettings.aspx">
+      <siteMapNode title="$Resources:spadmin,AlternateUrlCollections_PageTitle" url="/_admin/AlternateUrlCollections.aspx">
+        <siteMapNode title="$Resources:spadmin,AlternateUrlCollections_AddIncomingPageTitle" url="/_admin/AddIncomingUrl.aspx" />
+        <siteMapNode title="$Resources:spadmin,AlternateUrlCollections_CreateExternalPageTitle" url="/_admin/CreateExternalUrl.aspx" />
+        <siteMapNode title="$Resources:spadmin,AlternateUrlCollections_EditIncomingPageTitle" url="/_admin/EditIncomingUrl.aspx" />
+        <siteMapNode title="$Resources:spadmin,AlternateUrlCollections_EditOutboundPageTitle" url="/_admin/EditOutboundUrls.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,FarmServers_PageTitle" url="/_admin/FarmServers.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_EmailConfiguration_Title" url="/_admin/globalemailconfig.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_XmsConfiguration_Title" url="/_admin/globalxmsconfig.aspx" />
+      <siteMapNode title="$Resources:spadmin,sitemap_Operations_IncomingEmailServer_Title" url="/_admin/IncomingEmail.aspx" />
+      <siteMapNode title="$Resources:spadmin,ManageFarmFeatures_pagetitle" url="/_admin/ManageFarmFeatures.aspx" />
+      <siteMapNode title="$Resources:spadmin,server_pagetitle" url="/_admin/Server.aspx">
+        <siteMapNode title="$Resources:spadmin,workflowtimer_pagetitle" url="/_admin/workflowtimer.aspx" />
+        <siteMapNode title="$SatelliteResources:Microsoft.SharePoint.Search,SPSearchServiceInstanceSettings_SearchAdminBreadcrumb" url="/_admin/spsearchserviceinstancesettings.aspx" parentUrl="/_admin/Server.aspx" />
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,Solutions_PageTitle" url="/_admin/Solutions.aspx">
+        <siteMapNode title="$Resources:spadmin,solutionStatus_PageTitle" url="/_admin/SolutionStatus.aspx" requiredParameters="ItemName,Lcid">
+          <siteMapNode title="$Resources:spadmin,solution_DeploySolutionTitle" url="/_admin/DeploySolution.aspx" />
+          <siteMapNode title="$Resources:spadmin,solution_RetractSolutionTitle" url="/_admin/RetractSolution.aspx" />
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="$Resources:spadmin,userSolutions_pagetitle" url="/_admin/userSolutions.aspx" />
+      <siteMapNode title="$Resources:spadmin,privacyoptions_pagetitle" url="/_admin/privacy.aspx" />
+    </siteMapNode>
+    <siteMapNode title="$Resources:spadmin,upgradeandmigration_pagetitle" url="upgradeandmigration.aspx">
+      <siteMapNode title="$Resources:spadmin,patchstatus_pagetitle" url="/_admin/PatchStatus.aspx" />
+      <siteMapNode title="$Resources:spadmin,UpgradeStatus_PageTitle" url="/_admin/UpgradeStatus.aspx" />
+      <siteMapNode title="$Resources:spadmin,databasestatus_pagetitle" url="/_admin/DatabaseStatus.aspx" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

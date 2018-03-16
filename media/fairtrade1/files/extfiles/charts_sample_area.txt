@@ -1,0 +1,30 @@
+{
+  "bg_colour":"#ffffff",
+	
+  "y_axis":{
+    "max":   100,
+	"steps": 10 
+  },
+
+  
+  "elements":[
+    {
+      "type":      "area",
+      "colour":    "#52A8FA",
+      "fill":      "#52A8FA",
+      "fill-alpha": 0.5,	  
+      "text":      "dataset 1",
+      "font-size": 10,
+      "width":     2,
+      "values" :   [17,26,53,96]
+    }
+  ],
+
+  "x_axis":{
+    "labels": {
+      "labels":["2011","2012","2013","2014"]
+    }
+  }
+
+
+}

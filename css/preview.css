@@ -1,0 +1,168 @@
+/**
+	Extended - HTML5 creative Portfolio Template
+ 	Copyright (c) 2015, Subramanian 
+
+	Author: Subramanian
+    Profile: themeforest.net/user/FMedia/
+	
+    Version: 1.0.0
+	Release Date: March 2015
+	
+**/
+
+/*
+==========	THIS FILE USED ONLY FOR PREVIEW PURPOSE		==========
+*/
+
+body{ 
+	overflow: auto !important ; 
+	background-color:#f1f1f1;
+	}
+
+img{ 
+	border:0px;
+ 	}
+	
+.imgShadow{
+  -moz-box-shadow: 1px 1px 15px #000000;
+  -webkit-box-shadow: 1px 1px 15px #000000;
+  box-shadow: 1px 1px 15px #000000;
+  }	
+
+.preview_logo {
+	position: relative;
+	height: 180px;
+	left: 10px;
+	}
+.preview_logo img{
+	width:auto;
+	height:100%;
+	}
+.preview_logo span{
+	float:right;
+	padding-top: 25px;
+	font-size: 28px;
+	}
+	
+img.scale-with-grid {
+	max-width: 100%;
+	height: auto; 
+	}
+
+h6{ margin-top:-10px }
+
+.alignCen{
+	text-align:center;
+	vertical-align:middle;
+	}
+
+.img_h{
+	position:relative; 
+	display:block;	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	}
+
+.img_hover { position:relative; display:block; }
+.img_hover .img_h{
+	bottom:-15px;
+	}
+
+.img_hover:hover .img_h{
+	bottom:5px;
+	}
+
+.img_hover h6{ 
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	}
+.img_hover:hover h6{ color:#be9600; }
+
+.fontBig{
+	font-weight:lighter;
+	font-size:20px;
+	line-height:1px;
+	}
+
+.fontBig2 {
+	font-weight:lighter;
+	font-size:30px;
+	letter-spacing:1px;
+	padding:20px 0px 20px 0px;
+	}
+	
+.fontSmall{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	font-size:12px;
+	line-height:inherit;
+	letter-spacing:inherit;
+	}
+
+
+span.customStyleSelectBox {font-size:14px; background-color: #ccc; color:#222; padding:5px 7px; border:1px solid #000; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px 3px; line-height: 12px; }
+span.customStyleSelectBox.changed { background-color: #f0dea4; } .customStyleSelectBoxInner { background:url(images/arrow.gif) no-repeat center right; }
+
+.topSpace_img { top:45px; position:relative }
+
+.placeOver{ margin:0 auto; left:0px; margin-top:10px;}
+
+.titleImg{
+	position:absolute;
+	top:65px;
+	left:0px;
+	z-index:15;
+	}
+
+html, body {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	overflow:hidden;
+	margin-right:0px !important;
+	}
+
+
+.no_PaddingMargin{ margin:0px; padding:0px 0px 0px 0px; }
+
+.topSpac_text_center{ text-align:center; margin-top:20px;	}
+.no_bottom_space{ margin-bottom:0px !important;	}
+.margin_bot15{ margin-bottom:15px !important; }
+
+@media only screen and (max-width: 1519px) {
+	.preview_logo {
+		height: 120px;
+		}
+	}
+
+@media screen and (max-width: 991px) {
+	body{ overflow-y: auto  !important; }	
+}
+
+@media screen and (max-width: 767px) {
+	body{ overflow-y: auto  !important; }	
+}
+
+
+@media only screen and (max-width: 767px) {
+ .topSpace_img { top:5px; }
+ .space_max.zspc { padding-top:20px !important; }
+}
+
+@media only screen and (max-width: 599px){
+.heading_stroke h2 {
+	padding-bottom: 5px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.separator_mini {
+		clear: both;
+		margin: 0 0 0px;
+		height: 2px;
+		}
+	}

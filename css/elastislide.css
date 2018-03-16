@@ -1,0 +1,379 @@
+.elastislide-wrapper,
+.elastislide-wrapper img,
+.elastislide-wrapper:after,
+.elastislide-wrapper:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.carousel_container .carousel_thumbails{
+	position:relative;
+	visibility:hidden;
+	display:block;
+	}
+
+.carousel_preview{
+	position:relative;
+	width:100%;
+	overflow:hidden;	
+}
+
+
+.carousel_item{
+	position:relative;
+	display: none;
+	clear:left;
+	}
+.carousel_container .elastislide-carousel ul li a img {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	}
+
+.elastislide-wrapper nav .np_btn:hover {
+	opacity: 1.0;
+}
+
+.elastislide-carousel ul li a{
+	max-width:133px;
+}
+
+.carousel li, .carousel_thumbails li{
+	min-height:75px;
+}
+
+.carousel_container img, .elastislide-carousel img{
+	display: inherit;	
+	}
+
+
+	
+
+/* Elastislide Style */
+
+.elastislide-list {
+	list-style-type: none;
+	display: none;
+}
+
+.no-js .elastislide-list {
+	display: block;
+}
+
+.elastislide-carousel ul li {
+	min-width: 20px; /* minimum width of the image (min width + border) */
+}
+
+.elastislide-wrapper {
+	position: relative;
+	margin: 0 auto;
+	min-height: 60px;
+
+}
+
+.elastislide-wrapper.elastislide-loading {
+	background-image: url(../images/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.elastislide-horizontal {
+	padding: 48px 0px;
+}
+
+.elastislide-vertical {
+	padding: 40px 10px;
+}
+
+.elastislide-carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.elastislide-carousel ul {
+	position: relative;
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.elastislide-horizontal ul {
+	white-space: nowrap;
+}
+
+.elastislide-carousel ul li {
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+}
+
+.elastislide-horizontal ul li {
+	height: 100%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+.elastislide-vertical ul li {
+	display: block;
+}
+
+.elastislide-carousel ul li a {
+	display: inline-block;
+	width: 100%;
+}
+
+.elastislide-carousel ul li a img {
+	display: block;
+	border: 4px solid #222;
+	max-width: 100%;
+}
+
+.lightStyle .elastislide-carousel ul li a img {
+	border: 4px solid #f5f5f5;
+	}
+	
+/* Navigation Arrows */
+
+.elastislide-wrapper nav .np_btn {
+	position: absolute;
+	background: #000 url(../images/nav.png) no-repeat 0px 0px;	
+	width: 32px;
+	height: 32px;
+	text-indent: -9000px;
+	cursor: pointer;
+	opacity: 0.8;
+	z-index:250;
+}
+
+.elastislide-horizontal nav .np_btn {
+	top: 50%;
+	left: 2px;
+	margin-top: -11px;
+}
+
+
+.elastislide-vertical nav .np_btn {
+	top: 10px;
+	left: 50%;
+	margin-left: -11px;
+	background-position: -17px 5px;
+}
+
+.elastislide-horizontal nav .np_btn.elastislide-next {
+	right: 2px;
+	left: auto;
+	background-position: 4px -17px;
+}
+
+.elastislide-vertical nav .np_btn.elastislide-next {
+	bottom: 10px;
+	top: auto;
+	background-position: -17px -18px;
+}
+
+
+
+
+/*.topNav nav .np_btn {
+	top: 0px;
+	right: 55px;
+	margin-top: 11px;
+	}
+*/
+
+.topNav nav .np_btn.elastislide-next {
+	right: -55px;
+	left: auto;
+	background-position: 0px -45px;
+	margin-top: -20px;
+	}
+
+.topNav nav .np_btn.elastislide-prev {
+	left: -55px !important;
+	margin-top: -20px;
+	}
+
+.fullScreen.imageCarousel .elastislide-horizontal {
+	padding: 0px;
+	}
+
+
+
+@media only screen and (max-width: 767px) {
+	.topNav nav .np_btn.elastislide-next {
+		right: -37px;
+		}
+	.topNav nav .np_btn.elastislide-prev {
+		left: -35px !important;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom Elastislide Styling */
+
+.elastic_slider .elastislide-horizontal {
+	padding: 10px 37px;
+	border-radius: 10px/90px;
+	
+}
+
+.elastic_slider .elastislide-horizontal ul li a img {
+	display:inline-block;
+	max-height:100% !important;
+	width:auto !important;
+	margin: 0 auto;
+}
+
+
+.elastic_slider .elastislide-wrapper:before,
+.elastic_slider .elastislide-wrapper:after{
+	content: '';
+	position: absolute;
+	z-index: -2;
+	bottom: 15px;
+	left:  20px;
+	width: 50%;
+	height: 20%;
+	border-radius: 10px/90px;
+}
+
+.elastic_slider .elastislide-wrapper:after {
+	right: 20px;
+	left: auto;
+	-webkit-transform: rotate(3deg);
+	-moz-transform: rotate(3deg);
+	-ms-transform: rotate(3deg);
+	-o-transform: rotate(3deg);
+	transform: rotate(3deg);
+}
+
+.demo-2 .elastislide-vertical {
+	max-width: 170px;
+	padding: 37px 10px;
+	border-radius: 90px/10px;
+}
+
+.demo-2 .elastislide-vertical:before {
+	top: 30px;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	content: " ";
+	position: absolute;
+	z-index: -2;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	border-radius: 20px/160px;
+}
+
+.demo-2 .elastislide-vertical:after {
+	content: " ";
+	position: absolute;
+	z-index: -2;
+}
+
+.demo-3 .elastislide-horizontal {
+	padding: 30px 60px;
+}
+
+.no-touch .demo-3 .elastislide-horizontal {
+	opacity: 0.8;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	-ms-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.no-touch .demo-3 .elastislide-horizontal:hover {
+	opacity: 1;
+}
+
+.demo-3 .elastislide-wrapper nav .np_btn {
+	background-color: #000;
+}
+
+.demo-3 .elastislide-carousel ul li a{
+	padding: 0 10px;
+}
+
+.demo-3 .elastislide-carousel ul li a img {
+	border-radius: 10px;
+	border: none;
+}
+
+.demo-4 .elastislide-horizontal {
+	background-color: transparent;
+	border-radius: 20px 20px 0 0;
+}
+
+.demo-3 .elastislide-horizontal.elastislide-loading,
+.demo-4 .elastislide-horizontal.elastislide-loading {
+	background-image: url(../images/loading.gif);
+}
+
+.demo-4 .elastislide-carousel ul li a{
+	padding: 10px;
+}
+
+.demo-4 .elastislide-carousel ul li a img {
+	border-radius: 10px;
+	border: none;
+
+}
+
+.demo-4 .elastislide-wrapper nav .np_btn {
+	background-color: #666;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.demo-4 .image-preview img {
+	border-radius: 0 0 20px 20px;
+	max-width: 100%;
+	display: block;
+}
+
+.demo-4 .elastislide-carousel ul li.current-img a img {
+	box-shadow: 0 0 3px 2px rgba(62,235,255,0.8);
+}
+
+
+

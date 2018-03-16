@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+
+<!-- /**
+	Extended - HTML5 creative Portfolio Template
+ 	Copyright (c) 2015, Subramanian 
+
+	Author: Subramanian
+    Profile: themeforest.net/user/FMedia/
+	
+    Version: 1.0.0
+	Release Date: March 2015
+**/ -->	
+
+    <html lang="en"> 
+    
+    <head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Extended - HTML5 creative Portfolio Template</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- CSS
+  ================================================== --> 
+  
+  <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  	
+    <!-- Included CSS files 
+	================================================== -->    
+    
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap-theme.min.css">    
+	<link rel="stylesheet" type="text/css"  href="font-awesome/css/font-awesome.min.css"> 
+    <link rel="stylesheet" type="text/css"  href="css/picons.css"> 
+	<link rel="stylesheet" type="text/css"  href="css/linea_icons.css">
+    <link rel="stylesheet" type="text/css"  href="css/animate.css">  
+  	<link rel="stylesheet" type="text/css"  href="css/main.min.css">
+    <link rel="stylesheet" type="text/css"  href="css/style.min.css">    
+	<link rel="stylesheet" type="text/css"  href="css/base.min.css">
+    <link rel="stylesheet" type="text/css"  href="css/font-style.css" id="set_font" >         
+    <link rel="stylesheet" type="text/css"  href="css/color-white.css" id="set_color">    
+    <link rel="stylesheet" type="text/css"  href="css/elastislide.css"> 
+    <link rel="stylesheet" type="text/css"  href="css/bigvideo.css">
+    <link rel="stylesheet" type="text/css"  href="css/magnific-popup.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="css/flexslider.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="css/supersized.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css"  href="css/supersized.shutter.min.css" media="screen" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+	<script type="text/javascript" src="js/modernizr.min.js"></script>
+
+
+
+       
+</head>
+
+
+<!--     
+    not_onepage_ver 		- To add this class name on body tag, It will make the page as normal type, not an one page version
+    white_ver 				- To add this class name on body tag, It will identify the page as a white version
+							  (It use to change the arrow, css background image as per white version Ex: To use color-white.css file)
+	menuAutoClose			- For Menu autohide, just add the class name menuAutoClose on the body tag
+    disableAnimation		- To disable opening animation, just add the disableAnimation class name to the body tag
+    Remove Page Border		- To remove the border, just set data-removePageBorder attribute to "yes" on body tag
+-->
+
+
+<body class="white_ver index-isotope menuCloseIt not_onepage_ver disableAnimation" data-page="index" >
+
+<div class="preloadimages_inline">
+	<img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/home_slide_image1.jpg" data-src-small="images/home_slider/home_slide_image1_s.jpg">
+    <img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/home_slide_image2.jpg" data-src-small="images/home_slider/home_slide_image2_s.jpg">
+    <img alt="image_alt_text" class="preload" src="images/0.png" data-src="images/home_slider/home_slide_image3.jpg" data-src-small="images/home_slider/home_slide_image3_s.jpg">
+    <img alt="image_alt_text" class="preload cssBackground" src="images/0.png" data-src="images/sprite.png" data-src-2x="images/sprite@2x.png">
+</div>
+
+<!--  loading Objects -->
+<div class="loading_objects">
+    <div class="loading_2x">
+        <div class="track"></div>
+        <div class="ball"></div>
+         <div class="text"></div>
+    </div>
+    
+    <div class="loading_x">
+        <div class="track"></div>
+        <div class="ball"></div>       
+    </div>    
+</div>
+
+
+<!--  site loading -->
+<div class="pageFade bg_white" > 	
+	<div class="loading_2x out"> 
+    	<div class="text"> <p>Loading...</p> </div>       
+         <div class="logo_loading">
+         	<div class="site_loading_bar"></div>         
+         </div>
+    </div> 
+    <!--  site Intro text rotate when site loading. 
+    		The removeInTouchDevice class is used to remove the list on the touch device      
+    <ul class="openingIntro" data-introTextInEffect="animated fadeIn" data-introTextOutEffect="animated fadeOut">    	
+        <li data-time="5"><h3>Its an introduction text</h3></li>
+        <li data-time="12" class="removeInTouchDevice ">
+        	<span class=" medium_image">
+        		<img src="images/tutorial.png" class="scale-with-grid" alt="tutorial" >
+            </span>
+          </li>
+        <li data-time="4"><h3>Fresh look and Feel</h3></li>        
+        <li data-time="6"><h3>Best Spa page you've ever seen</h3></li>
+    </ul>    -->      
+</div>
+
+
+<!--
+Header Navigation Area
+-->
+
+ <!-- Place your logo here -->
+<div class="logo posTopLeft" >
+    <a href="index.html" class="menu_link smoothPageLoad"><img src="images/logo.png" alt="logo text"></a>
+</div>
+
+<div class="mobile_menu_btn">  </div>
+ 
+<div class="smartMenu_btn">
+    <span class="menu_title"></span> 
+    <span class="nav_bar">
+        <span class="n_bar"></span>
+        <span class="n_bar"></span>
+        <span class="n_bar"></span>
+    </span>
+</div>
+    
+    
+<div class="header menuInverse" >    
+
+    <!-- Site Menu -->
+                         
+    <nav class="header_content">
+        <ul class="nav smartMenu ">
+            <!--  Add require site page navigation -->                    
+            <li><a href="index.html" class="first active">Home</a></li>
+            <li><a href="index.html#!about">About</a></li>
+            <li><a href="index.html#!services">Services</a></li>  
+            <li><a href="index.html#!team">Team</a></li>                                 
+            <li><a href="index.html#!works">Works</a></li>
+            <li><a href="#">Pages</a>
+                <span class="arrow"></span>
+                <ul>
+                    <li ><a href="index.html#!blog">Blog list</a></li>
+                    <li><a href="blog.html">Blog Post</a></li>
+                </ul>
+          </li>
+          <li><a href="index.html#!contactus" class="last">Contact us</a></li>                                          
+        </ul>
+    </nav>   
+    
+</div>
+   
+
+
+<div class="topBackground">
+</div>
+              
+
+<!-- pgScrollUp navigation used to scroll the page to top position, Currently its hide in this template.
+If you need this button just remove the comment code
+-->
+
+<div class="pgScrollUp fxEmbossBtn noBorder mobile_Only">
+	<span class="btn_icon"> <i class="fa fa-arrow-up"></i> </span> 
+	<span class="btn_hover"></span> 
+</div>
+
+
+
+<!-- Complete web site content is placed inside the bodyContainer class div except footer -->
+
+
+
+
+
+<div class="bodyContainer">
+    
+    <div class="autoHideMenu"></div>
+    
+    <div class="contentWrapper autoPosition" >
+    
+    <div class="pageContent addPageBorder">
+    
+    <div class="portion greyBackground">
+        
+        
+        <div class="container" >        
+            <div class="row">  
+                <div class="col-md-12">  
+                	<hr class="onlyHigDevice space_mini ">
+                    <h4 class="top_heading">SHORT CODES</h4>
+                </div>           
+            </div> 
+        </div>
+     	
+        <hr class="separator_desktop">
+        
+        <div class="container">
+                   
+            <div class="row" > 
+            
+            	<div  class="col-md-6" >
+                	<h4 class="upperCase font_medium_x">Tab</h4>
+					<hr class="space_small">
+                
+                     <!-- Tab navigation -->
+                    <ul class="nav nav-tabs"  >
+                      <li class="active"><a href="#tab1" data-toggle="tab">First Tab</a></li>
+                      <li><a href="#tab2" data-toggle="tab">Second Tab</a></li>
+                      <li><a href="#tab3" data-toggle="tab">Third Tab</a></li>
+                    </ul>
+                    
+                     <!-- Tab content -->
+                     
+                    <div class="tab-content">
+                      
+                        <div class="tab-pane active" id="tab1">
+                            <div  class="col-md-12">
+                                <h5>Tab Content 1</h5>                            
+                                <p>Topsum dolor sit amet, consectetuer adipiscing elit euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. consectetuer adipiscing elit, Nibh euismod tlaoreet dolore magna aliquam erat volutpat. sed diam nonummy nibh euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. Diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. c</p>
+                            </div>             
+                        </div>               
+                        
+                        <div class="tab-pane" id="tab2">                    
+                            <div  class="col-md-12">
+                                <h5>Tab Content 2</h5>                            
+                                <p>Topsum dolor sit amet, consectetuer adipiscing elit euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. consectetuer adipiscing elit, Nibh euismod tlaoreet dolore magna aliquam erat volutpat. sed diam nonummy nibh euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. Diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. c</p>
+                            </div>
+                        </div>
+                          
+                        <div class="tab-pane" id="tab3">                
+                            <div  class="col-md-12">
+                                <h5>Tab Content 3</h5>                            
+                                <p>Topsum dolor sit amet, consectetuer adipiscing elit euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. consectetuer adipiscing elit, Nibh euismod tlaoreet dolore magna aliquam erat volutpat. sed diam nonummy nibh euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. Diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. c</p>
+                            </div> 
+                        </div>
+                    </div>
+                
+                </div>
+        	 
+                          
+			<div class="col-md-6"> 
+                 
+				<h5 class="upperCase font_medium_x">Accordion Toggles</h5>                    
+                <!-- Start Accordion 
+                The attribute data-autoHide is used to close the accordion tab automatically when the user select other tab,
+                The attribute data-openFirstElement is used to open the first accordion tab when page load
+                -->
+                <dl class="accordion" data-autoHide="true" data-openFirstElement="true"  >
+                
+                    <!-- Accordion tab -->
+                    <dt>
+                        <a href="" class="normal">
+                        <span class="closeOpen" ></span>
+                        <span class="acc_heading">
+                            <!-- Heading -->
+                            First Accordion Heading
+                        </span></a>
+                    </dt>
+                    
+                        <dd>
+                            <div class="acc_content">
+                                <!-- Tab content -->
+                                <p>Lorem ipsum dolor sit a m et, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br> 
+                                set <em><span class="bold_weight">data-autoHide="true"</span></em> and  <em><span class="bold_weight">data-openFirstElement="true"</span></em> to the main accordion class div. 
+                                Add any number of accordion on same page.
+                                </p>
+                            </div>
+                        </dd>
+                        
+                        
+                    <!-- Accordion tab -->
+                    <dt>
+                        <a href="" class="normal">
+                        <span class="closeOpen" ></span>
+                        <span class="acc_heading">
+                            <!-- Heading -->
+                            Second Accordion Heading
+                        </span></a>
+                    </dt>
+                        <dd>
+                            <div class="acc_content">
+                                <!-- Tab content -->
+                                <p> Lorem ipsum dolor sit a m et, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. onec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+                                </p>
+                            </div>
+                        </dd>
+                    
+                    
+                    <!-- Accordion tab -->
+                    <dt>
+                        <a href="" class="normal">
+                          <span class="closeOpen" ></span>
+                          <span class="acc_heading">
+                            <!-- Heading -->
+							Third Accordion Heading
+                        </span></a>
+                    </dt>
+                        <dd>
+                            <div class="acc_content">
+                                <!-- Tab content -->
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus
+                                </p>
+                            </div>
+                        </dd>
+                        
+                </dl>​​   
+                <!-- End Accordion -->   
+
+            </div>
+                
+           </div>
+           
+          <hr>
+          <hr class="separator_bar dark">
+          <hr>
+                
+        </div>        
+        
+        
+    
+        <div class="container desktop_alignLeft">
+        
+            <div class="row-fluid">
+               <div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Alert Message</h4>
+                    <hr class="space_small">
+                    
+                    <div class="alert alert-message">
+                      <button type="button" class="close" data-dismiss="alert">&times;</button>
+                      Message Box
+                    </div>
+                    
+                     <div class="alert alert-warning">
+                      <strong>Warning!</strong> Change a few things up and try submitting again.
+                    </div>
+                    
+                    
+                    <div class="alert alert-error">
+                      <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                    </div>
+                    
+                    <div class="alert alert-success">
+                         <strong>Well done!</strong> You successfully read this important alert message.
+                    </div>
+                    
+                    <div class="alert alert-info">
+                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                    </div>
+                    
+                </div>
+               <div class="col-md-6"> 
+					
+                    <h4 class="upperCase pad_10_noLeft font_medium_x">Accordion</h4>
+                    <hr class="space_small">
+                          
+                    <!-- Start Accordion 
+                    The attribute data-autoHide is used to close the accordion tab automatically when the user select other tab,
+                    The attribute data-openFirstElement is used to open the first accordion tab when page load
+                    -->
+                    <dl class="accordion" data-autoHide="false" data-openFirstElement="true"  >
+                    
+                        <!-- Accordion tab -->
+                        <dt>
+                            <a href="" class="normal">
+                            <span class="closeOpen" ></span>
+                            <span class="acc_heading">
+                                <!-- Heading -->
+                                First Accordion Heading
+                            </span></a>
+                        </dt>
+                        
+                            <dd>
+                                <div class="acc_content">
+                                    <!-- Tab content -->
+                                    <p>Lorem ipsum dolor sit a m et, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br> 
+                                    set <em><span class="bold_weight">data-autoHide="true"</span></em> and  <em><span class="bold_weight">data-openFirstElement="true"</span></em> to the main accordion class div. 
+                                    Add any number of accordion on same page.
+                                    </p>
+                                </div>
+                            </dd>
+                            
+                            
+                        <!-- Accordion tab -->
+                        <dt>
+                            <a href="" class="normal">
+                            <span class="closeOpen" ></span>
+                            <span class="acc_heading">
+                                <!-- Heading -->
+                                Second Accordion Heading
+                            </span></a>
+                        </dt>
+                            <dd>
+                                <div class="acc_content">
+                                    <!-- Tab content -->
+                                    <p> Lorem ipsum dolor sit a m et, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. onec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.
+                                    </p>
+                                </div>
+                            </dd>
+                        
+                        
+                        <!-- Accordion tab -->
+                        <dt>
+                            <a href="" class="normal">
+                              <span class="closeOpen" ></span>
+                              <span class="acc_heading">
+                                <!-- Heading -->
+                                Third Accordion Heading
+                            </span></a>
+                        </dt>
+                            <dd>
+                                <div class="acc_content">
+                                    <!-- Tab content -->
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer commodo tristique odio, Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus
+                                    </p>
+                                </div>
+                            </dd>
+                            
+                    </dl>​​   
+                    <!-- End Accordion -->
+                    
+                </div>
+            </div>
+            
+            <hr>
+			<hr class="separator_bar dark">
+            <hr>
+                       
+        </div>
+        
+        <div class="container">
+        	<div class="row-fluid">
+                <div class="col-md-6"> 
+                </div>
+                <div class="col-md-6"> 
+                </div>
+            </div>
+        </div>
+        
+         <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Graph-Style1</h4>
+                    <div class="graph_container style2">
+                        <ul>
+                            <li data-level="90%" ><a></a> <span>HTML/CSS - <span class="display">90</span>%</span></li>
+                            <li data-level="75%"><a></a> <span>WordPress - <span class="display">75</span>%</span></li>
+                            <li data-level="95%"><a></a> <span>Brochure - <span class="display">95</span>%</span></li>
+                            <li data-level="85%"><a></a> <span>Motion - <span class="display">85</span>%</span></li>
+                        </ul>
+                    </div>
+            	</div>
+                <div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Graph-Style2</h4>
+                    <div class="graph_container">
+                      <ul>
+                          <li data-level="95%" ><a></a> <span>Human Resources - <span class="display">95</span>%</span></li>
+                          <li data-level="70%"><a></a> <span>Web Development - <span class="display">70</span>%</span></li>
+                          <li data-level="90%"><a></a> <span>Research & Development - <span class="display">90</span>%</span></li>
+                      </ul>
+                    </div>
+                    <hr>
+                    <h4 class="upperCase pad_10_noLeft font_medium_x">Markup</h4>
+                    <hr>
+                    <span class="label label-default">Default</span>
+                    <span class="label label-success">Success</span>
+                    <span class="label label-warning">Warning</span>
+                    <span class="label label-important">Important</span>
+                    <span class="label label-info">Info</span>
+                    <span class="label label-inverse">Inverse</span>                
+                    <hr class="separator_mini">
+            	</div>
+            </div>
+            
+            <hr>
+			<hr class="separator_bar dark">
+            <hr>
+            
+        </div>
+        
+        <div class="container">            
+        	<div class="row-fluid">
+            	<div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Slideshow Type - 1</h4>
+                	<div class="flexSlideshow" >
+                        <ul class="slides"> 
+                            <li><a  class="lazyload" href="images/portfolio/p_image2.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image1.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image3.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image4.jpg" title="Some text">image</a></li>
+                        </ul>
+                    </div>
+            	</div>
+                <div class="col-md-6">
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Slideshow Type - 2</h4>
+                	<div class="flexSlideshow slideAnimation showControlNav" >
+                        <ul class="slides"> 
+                            <li><a  class="lazyload" href="images/portfolio/p_image4.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image1.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image3.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image2.jpg" title="Some text">image</a></li>
+                        </ul>
+                        <hr class="slide_bottomSpace">
+                    </div> 
+            	</div>
+            </div>
+        </div>
+        
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Slideshow Type - 3</h4>
+                	<div class="flexSlideshow slideAnimation" >
+                        <ul class="slides"> 
+                            <li><a  class="lazyload" href="images/portfolio/p_image1.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image2.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image3.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image4.jpg" title="Some text">image</a></li>
+                        </ul>
+                    </div>
+            	</div>
+                <div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Slideshow Type - 4</h4>
+                	<div class="flexSlideshow slideAnimation showControlNav" >
+                        <ul class="slides"> 
+                            <li><a  class="lazyload" href="images/portfolio/p_image3.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image2.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image1.jpg" title="Some text">image</a></li>
+                            <li><a  class="lazyload" href="images/portfolio/p_image4.jpg" title="Some text">image</a></li>
+                        </ul>
+                    </div>
+            	</div>
+            </div>
+			
+        </div>
+        
+    
+        <hr class=" space_max">
+        
+        <div class="container">
+        	<div class="row-fluid">            	
+                <div class="col-md-7"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">YouTube / Vimeo Video with cover image</h4>
+                	<div class="addVideo video_content" data-url="http://www.youtube.com/watch?v=Xd0Ok-MkqoE" >
+                        <div class="video_hover"></div>
+                        <div class="video_title darkBgCaption" > 
+                            <div> <h4><span class="light_color">Support Youtube and vimeo video</span></h4></div>
+                            <div> <h6><span class="light_color">Add / Remove video title</span></h6></div>
+                        </div> 
+                        <!-- video cover image -->
+                         <img  class="scale-with-grid" src="images/video_img.jpg" alt="Some text" />                      
+                    </div>
+                </div>                
+                <div class="col-md-5">
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Iframe Video</h4>
+                	<!-- iframe video -->
+                    <iframe class="iframeVideo" src="https://player.vimeo.com/video/80325008?title=0&amp;byline=0&amp;portrait=0&amp;color=4584be" width="800" height="450" ></iframe>                   
+                </div>
+			</div>
+		</div>
+        
+         <hr class=" space_max">
+         
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Hover items with active link</h4>
+                	<figure class="itemOver">
+                        <div class="overlay flatHover">
+                            <div class="popup_overlay" >
+                                <div class="popup_links">
+                                    <a class="magnificPopup" data-title='<span class="upperCase bold_weight">Architecto veritatis et quasi</span>'  href="images/portfolio/image1.jpg" target="_self">
+                                		<span class="link_image"></span>
+                                 	</a>
+                                    <!-- Thumbnail overlay to display video -->
+                                	<a class="magnificPopup mfp-iframe" href="https://vimeo.com/80325008" target="_self">
+                                		<span class="link_video"></span>
+                                 	</a> 
+                                    <a href="#" ><span class="link_portfolio"></span> </a>                                    
+                                    <!-- Thumbnail overlay to display gallery -->                                  
+                                    <a href="#" class="magnificPopup_item_gallery" >                                    	
+   										<ul class="i_gallery">
+                                    		<li data-href="images/portfolio/image1.jpg" data-title='<span class="upperCase bold_weight">Consequatur software development</span>'></li>
+                                            <li data-href="images/portfolio/image2.jpg"></li>
+                                            <li data-href="https://vimeo.com/80325008" data-type="iframe"></li>
+                                     	</ul> 
+                                    	<span class="link_gallery"></span> 
+                                    </a> 
+                                    <a href="blog-post.html" class="smoothPageLoad" ><span class="link_link"></span> </a>
+                                </div>
+                            </div>                         
+                        </div>
+                        <img alt="image_alt_text" class="preload alignCenter resize-with-grid" src="images/0.png" data-src="images/portfolio/image1.jpg" >  
+                    </figure>
+                </div>
+                <div class="col-md-6"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Hover items sample</h4>
+                	<figure class="itemOver">
+                        <span class="overlay flatHover">
+                            <span class="popup_overlay" >
+                                <span class="popup_links">
+                                    <a href="#"><span class="link_image"></span></a>
+                                    <a href="#"><span class="link_video"></span></a>
+                                    <a href="#"><span class="link_portfolio"></span></a>                                 
+                                    <a href="#"><span class="link_gallery"></span></a> 
+                                    <a href="#"><span class="link_audio"></span></a>
+                                </span>
+                            </span>                         
+                        </span>
+                        <img alt="image_alt_text" class="preload alignCenter resize-with-grid" src="images/0.png" data-src="images/portfolio/image2.jpg" >  
+                    </figure>
+                </div>
+			</div>
+		</div>
+        
+        <hr class=" space_max">
+        
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-12">
+                	<h4>Magnific Popup</h4>
+                </div>
+			</div>
+            <hr>
+        	<div class="row-fluid">
+            	<div class="col-md-6">
+                	<h4 class="font_medium_x">Single popup image</h4>
+                    <a class="magnificPopup" data-title='<span class="upperCase bold_weight">Image Description text with style</span>'  href="images/portfolio/image1.jpg" target="_self">
+                        Click to see Popup Image
+                    </a> 
+                    <hr>
+                    <h4 class="font_medium_x">Gallery with separate link for each image</h4>
+                    <div class="magnificPopup_gallery">
+                        <a title='Image Text 1'  href="images/portfolio/image1.jpg" target="_self"> Image1</a> 
+                        <a title='Image Text 2'  href="images/portfolio/image2.jpg" target="_self"> Image2 </a> 
+                        <a title='Image Text 3'  href="images/portfolio/image3.jpg" target="_self"> Image3</a> 
+                    </div> 
+                    <hr>
+                    <h4 class="font_medium_x">Gallery with single link for all image</h4>                    
+                    <a href="#" class="magnificPopup_item_gallery" >                                    	
+                        <ul class="i_gallery">
+                            <li data-title='<span class="upperCase bold_weight">Image 1 text</span>' data-href="images/portfolio/image4.jpg"></li>
+                            <li data-title='<span class="upperCase">Image 2 text</span>' data-href="images/portfolio/image5.jpg"></li>
+                            <li data-title='<span class="upperCase">Image 3 text</span>' data-href="https://vimeo.com/80325008" data-type="iframe"></li>
+                        </ul> 
+                        Click to see popup gallery
+                    </a>  
+				</div>
+                <div class="col-md-6">
+                	<h4 class="font_medium_x">inline content</h4>
+                	<a href="#" data-mfp-src="#sample_popup_inline" class="magnificPopup_inline">
+                        Inline Text link
+                    </a>
+                    <hr>
+                    <h4 class="font_medium_x">inline content - Popup text placed near(inside) the link</h4>
+                	<div class="detail_text">                    
+                        <div class="popup_text animated fadeInLeft">
+                        	<div class="container">
+                            	<div class="row">
+            						<div class="col-md-12">
+                            			<h3>Tliquam tlaoreet volutpat elit</h3>
+                                		<p>Consectetuer adipiscing elit euismod tincidunt. sed diam nonummy nibh euismod tlaoreet dolore magna aliquam erat volutpat. consectetuer adipiscing elit, Nibh euismod tlaoreet dolore magna aliquam erat volutpat. sed diam nonummy magna aliquam erat volutpat consectetuer adipiscing elit.</p>
+                            		</div>
+                            	</div>
+                            </div>
+                        </div>                        
+                        <a class="link_btn defaultPos"> More info</a>	
+                    </div> 
+                    
+                    <hr>
+                    
+                    <h4 class="font_medium_x">popup video</h4>
+                    <a class="magnificPopup" href="https://vimeo.com/80325008" data-type="iframe">
+                        Click to see Popup Video
+                    </a>
+                    <hr>
+                    
+                    
+				</div>
+			</div>
+		</div>
+        <hr>
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-6">
+                    <h3 class="upperCase pad_10_noLeft font_medium_x">Pagination</h3>
+                    <div class="pagination" >
+                        <ul>
+                            <li> <a href="#">Prev</a> </li>
+                            <li> <a href="#" class="active">1</a> </li>
+                            <li> <a href="#">2</a> </li>
+                            <li> <a href="#">3</a> </li>
+                            <li> <a href="#">Next</a> </li>
+                        </ul>
+                    </div>                   
+            	</div>
+                 <div class="col-md-6"> 
+                 	<h3 class="upperCase pad_10_noLeft font_medium_x">Elements with icons</h3>
+                    <hr>
+                    <ul class="tools alignLeft"> 
+                        <li><i class="fa fa-calendar-o"></i>17 April</li> 
+                        <li><a href="#"><i class="fa fa-user"></i>John Doe</a></li>
+                        <li><a  href="blog-post.html" class="smoothPageLoad"><i class="fa fa-comment-o"></i>67</a></li>
+                        <li><i class="fa fa-tags"></i><a>Art,</a> <a>Painting,</a> <a>3d modeling</a> </li>                            
+                        <li><a href="#"><i class="fa fa-heart"></i>123</a></li>
+                    </ul> 
+                </div>
+			</div>
+                    
+        	<div class="row-fluid">
+            	<div class="col-md-6">
+                	<h3 class="upperCase pad_10_noLeft font_medium_x">Feature list</h3>
+                	<ul class="item_feature">
+                        <li><span class="title"><i class="fa fa-calendar"></i></span>05 Jan 2014</li>
+                        <li><span class="title"><i class="fa fa-user"></i></span>Magna aliqua</li>
+                        <li><span class="title"><i class="fa fa-tags"></i></span><span class="meta"><a>Art,</a> <a>Painting,</a> <a>3d modeling</a> </span></li>
+                        <li><span class="title"><i class="fa fa-external-link"></i></span><a>http://companyname.com</a></li>
+                    </ul>                	
+                </div>
+                <div class="col-md-6">
+                	<h3 class="upperCase pad_10_noLeft font_medium_x">Listed</h3>
+                    <ul class="listed_o normal_over">
+                        <li><a>Wordpress (18)</a></li>
+                        <li><a>Layout design (25)</a></li>
+                        <li><a>Graphic design (48)</a></li>
+                        <li><a>Javascript (15)</a></li>
+                    </ul>
+                </div>
+			</div>
+		</div>
+        
+        <hr class=" space_max">
+        
+        <div class="container">
+           <div class="row"   data-animated-time="0" data-animated-in="animated fadeInUp" data-animated-innerContent="yes" >
+              <div class="col-md-12 textAlignCenter">
+                  <div class="page_header textAlignCenter">
+                        <h4 class="upperCase">Pricing Table</h4>
+                  </div>
+              </div>
+          </div>
+          <!-- Pricing Table -->
+          <div class="row-fluid pricing-table" data-animated-in="animated fadeInRight"  data-animated-innerContent="yes"  >
+              <div class="plan blue_color colored col-md-3">
+                  <h2>
+                    <span class="title">Economic Mode</span>
+                    <span class="price_circle">
+                        <span class="currency">$</span>
+                        <span class="price">24</span>
+                        <span class="decimal">.99</span>
+                    </span>
+                  </h2>      
+                  <ul>
+                      <li><b>50</b> HTML Template</li>
+                      <li><b>10</b> Wordpress Theme</li>
+                      <li><b>25</b> jquery plugin</li>
+                  <li><b>Unlimited</b> PSD Template</li>            
+                  </ul> 
+                  <br>
+                  <a class="fxButton emboss alignCenter" > 
+                      <div class="btn_icon">Choose Plane</div> 
+                      <div class="btn_hover"></div> 
+                  </a>
+                  <br>
+              </div>
+              
+              
+              <div class="plan  organge_color colored col-md-3">
+                  <h2>
+                    <span class="title">Ultimate Mode</span>
+                    <span class="price_circle">
+                        <span class="currency">$</span>
+                        <span class="price">59</span>
+                        <span class="decimal">.99</span>
+                    </span>
+                  </h2> 
+                  <ul>
+                      <li><b>100</b> HTML Template</li>
+                      <li><b>20</b> Wordpress Theme</li>
+                      <li><b>50</b> jquery plugin</li>
+                      <li><b>Unlimited</b> PSD Template</li>        
+                  </ul> 
+                  <br>
+                  <a class="fxButton emboss alignCenter" > 
+                      <div class="btn_icon">Choose Plane</div> 
+                      <div class="btn_hover"></div> 
+                  </a>
+                  <br>
+              </div>
+              
+              <div class="plan green_color colored col-md-3">
+                  <h2>
+                  	<span class="title">Expert Mode</span>
+                    <span class="price_circle">
+                        <span class="currency">$</span>
+                        <span class="price">44</span>
+                        <span class="decimal">.99</span>
+                    </span>
+                  </h2>
+                  <ul>
+                      <li><b>75</b> HTML Template</li>
+                      <li><b>15</b> Wordpress Theme</li>
+                      <li><b>40</b> jquery plugin</li>
+                      <li><b>Unlimited</b> PSD Template</li>       
+                  </ul> 
+                  <br>
+                  <a class="fxButton emboss alignCenter" > 
+                      <div class="btn_icon">Choose Plane</div> 
+                      <div class="btn_hover"></div> 
+                  </a>
+                  <br>
+              </div>
+              
+              <div class="plan col-md-3">
+                  <h2>
+                    <span class="title">Normal Mode</span>
+                    <span class="price_circle">
+                        <span class="currency">$</span>
+                        <span class="price">0</span>
+                        <span class="decimal">.00</span>
+                    </span>
+                  </h2>
+                  <ul>
+                      <li><b>20</b> HTML Template</li>
+                      <li><b>5</b> Wordpress Theme</li>
+                      <li><b>15</b> jquery plugin</li>
+                      <li><b>100</b> PSD Template</li>            
+                  </ul> 
+                  <br>
+                  <a class="fxButton emboss alignCenter" > 
+                      <div class="btn_icon">Choose Plane</div> 
+                      <div class="btn_hover"></div> 
+                  </a>
+                  <br>
+              </div>
+              
+          </div>
+       
+       </div>
+       
+       <hr class=" space_max">
+     
+        
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-12"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">Full width Grid</h4>                	
+                </div>
+			</div>	
+		</div>
+        
+		<div class="bs-docs-grid">
+           <div class="row-fluid show-grid">
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+            <div class="col-md-1">1</div>
+          </div>
+          <div class="row-fluid show-grid">
+            <div class="col-md-4">4</div>
+            <div class="col-md-4">4</div>
+            <div class="col-md-4">4</div>
+          </div>
+          <div class="row-fluid show-grid">
+            <div class="col-md-4">4</div>
+            <div class="col-md-8">8</div>
+          </div>
+          <div class="row-fluid show-grid">
+            <div class="col-md-6">6</div>
+            <div class="col-md-6">6</div>
+          </div>
+          <div class="row-fluid show-grid">
+            <div class="col-md-12">12</div>
+          </div>
+		</div>
+        
+        <hr class=" space_max">
+        
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-12"> 
+                	<h4 class="upperCase pad_10_noLeft font_medium_x">1170px Grid</h4>                	
+                </div>
+			</div>	
+		</div>
+        
+         <div class="container">
+        	<div class="bs-docs-grid">
+               <div class="row show-grid">
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+                <div class="col-md-1">1</div>
+              </div>
+              <div class="row show-grid">
+                <div class="col-md-4">4</div>
+                <div class="col-md-4">4</div>
+                <div class="col-md-4">4</div>
+              </div>
+              <div class="row show-grid">
+                <div class="col-md-4">4</div>
+                <div class="col-md-8">8</div>
+              </div>
+              <div class="row show-grid">
+                <div class="col-md-6">6</div>
+                <div class="col-md-6">6</div>
+              </div>
+              <div class="row show-grid">
+                <div class="col-md-12">12</div>
+              </div>
+			</div>
+		</div>
+        
+        <hr class=" space_max">
+        
+        <div class="container">
+        	<div class="row-fluid">
+            	<div class="col-md-12"> 
+                	<h4 class="font_medium_x">Picons</h4>
+                   	<ul class="icons_listed padList">
+                    	<li> <i class="picons-icon-thin-175_computer_desktop_screen_settings_preferences fa-3x "></i> </li>             	
+                    	<li> <i class="picons-icon-thin-129_world_globe_internation_region_language_earth fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-003_write_pencil_new_edit fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-500_drawing_pen_pencil_ruler fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-486_arrow_shooting_target_bullseye_archery fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-491_vector_drawing_pdf_illustrator_resizable fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-495_paint_brush_tool_color fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-487_relay_holiday_tourist_beach_sea_sunbathing fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-287_laboratory_lab_experiment_research fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-464_bright_bulb_idea_lamp_light fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-014_plane_paper_send fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-215_support_help_rescue fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-496_eye_dropper_color_picker fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-356_analytics_bar_chart_diagram_presentation fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-313_iphone_mobile_chat_message_sms fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-311_ipad_tablet_touch_screen fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-308_plant_nature_leaf_flower fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-273_rocket_space fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-125_location_map_navigate fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin-089_file_document_writing_script fa-3x"></i> </li>
+                        <li> <i class="picons-icon-thin- fa-3x"></i> </li>
+                	</ul>
+                    <br>
+                </div>
+			</div>	
+		</div>
+        
+        <hr class=" space_max">
+        
+		<div class="container">
+
+			<div class="row-fluid" >
+          		<div class="col-md-6" >
+                    <h4 class="font_medium_x"> Font Awesome Icons set </h4>
+                    <br>
+                  
+                    <!-- Socialize icons-->
+                    <ul class="font_awesome addFxEmbossBtn icons_listed">                  
+                        <li ><a ><i class="fa fa-adn"></i></a></li>
+                        <li ><a ><i class="fa fa-android"></i></a></li>
+                        <li ><a ><i class="fa fa-apple"></i></a></li>
+                        <li ><a ><i class="fa fa-bitbucket"></i></a></li>
+                        <li ><a ><i class="fa fa-bitbucket-square"></i></a></li>
+                        <li ><a ><i class="fa fa-bitcoin"></i></a></li>
+                        <li ><a ><i class="fa fa-css3"></i></a></li>
+                        <li ><a ><i class="fa fa-dribbble"></i></a></li>
+                        <li ><a ><i class="fa fa-dropbox"></i></a></li>
+                        <li ><a ><i class="fa fa-facebook"></i></a></li>
+                        <li ><a ><i class="fa fa-facebook-square"></i></a></li>
+                        <li ><a ><i class="fa fa-flickr"></i></a></li>
+                        <li ><a ><i class="fa fa-foursquare"></i></a></li>
+                        <li ><a ><i class="fa fa-github"></i></a></li>
+                        <li ><a ><i class="fa fa-github-alt"></i></a></li>
+                        <li ><a ><i class="fa fa-github-square"></i></a></li>
+                        <li ><a ><i class="fa fa-gittip"></i></a></li>
+                        <li ><a ><i class="fa fa-google-plus"></i></a></li>
+                        <li ><a ><i class="fa fa-google-plus-square"></i></a></li>
+                        <li ><a ><i class="fa fa-html5"></i></a></li>
+                        <li ><a ><i class="fa fa-instagram"></i></a></li>
+                        <li ><a ><i class="fa fa-linkedin"></i></a></li>
+                        <li ><a ><i class="fa fa-linkedin-square"></i></a></li>
+                        <li ><a ><i class="fa fa-linux"></i></a></li>
+                        <li ><a ><i class="fa fa-maxcdn"></i></a></li>
+                        <li ><a ><i class="fa fa-pinterest"></i></a></li>
+                        <li ><a ><i class="fa fa-pinterest-square"></i></a></li>
+                        <li ><a ><i class="fa fa-renren"></i></a></li>
+                        <li ><a ><i class="fa fa-skype"></i></a></li>
+                        <li ><a ><i class="fa fa-stack-exchange"></i></a></li>
+                        <li ><a ><i class="fa fa-trello"></i></a></li>
+                        <li ><a ><i class="fa fa-tumblr"></i></a></li>
+                        <li ><a ><i class="fa fa-tumblr-square"></i></a></li>
+                        <li ><a ><i class="fa fa-twitter"></i></a></li>
+                        <li ><a ><i class="fa fa-twitter-square"></i></a></li>
+                        <li ><a ><i class="fa fa-vk"></i></a></li>
+                        <li ><a ><i class="fa fa-weibo"></i></a></li>
+                        <li ><a ><i class="fa fa-windows"></i></a></li>
+                        <li ><a ><i class="fa fa-xing"></i></a></li>
+                        <li ><a ><i class="fa fa-xing-square"></i></a></li>
+                        <li ><a ><i class="fa fa-youtube"></i></a></li>
+                        <li ><a ><i class="fa fa-youtube-play"></i></a></li>
+                        <li ><a ><i class="fa fa-youtube-square"></i></a></li>
+                    </ul>
+                    
+					<hr class="separator_mini">
+                      
+                    <h5>Rectangle Links- add Class name rectangle_button</h5>
+                    <!-- Socialize icons-->
+                    <ul class="font_awesome addFxEmbossBtn rectangle_button icons_listed">                  
+                        <li ><a ><i class="fa fa-adn"></i></a></li>
+                        <li ><a ><i class="fa fa-android"></i></a></li>
+                        <li ><a ><i class="fa fa-apple"></i></a></li>
+                        <li ><a ><i class="fa fa-bitbucket"></i></a></li>
+                        <li ><a ><i class="fa fa-bitbucket-square"></i></a></li>
+                        <li ><a ><i class="fa fa-bitcoin"></i></a></li>
+                        <li ><a ><i class="fa fa-css3"></i></a></li>
+                        <li ><a ><i class="fa fa-dribbble"></i></a></li>
+                        <li ><a ><i class="fa fa-dropbox"></i></a></li>
+                        <li ><a ><i class="fa fa-facebook"></i></a></li>
+                        <li ><a ><i class="fa fa-facebook-square"></i></a></li>
+                        <li ><a ><i class="fa fa-flickr"></i></a></li>
+                    </ul>
+                    
+                    <hr class="separator_mini">
+                    <h5>You can see hundreds of icons in <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font-Awesome</a> webpage</h5>
+                    <hr class="separator_mini">
+              
+          		</div>
+          
+          		<div class="col-md-6" >
+          	
+                    <h4 class="font_medium_x"> Font Awesome colored social links </h4>
+                    <!-- Socialize icons inverse color-->
+                    <ul class="font_awesome addFxEmbossBtn icons_listed">
+                        <li ><a class="facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li ><a class="twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li ><a class="youtube"><i class="fa fa-facebook"></i></a></li>
+                        <li ><a class="googleplus"><i class="fa fa-google-plus"></i></a></li>
+                        <li ><a class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li ><a class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                        <li ><a class="instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li ><a class="pinterest"><i class="fa fa-pinterest"></i></a></li>
+                        <li ><a class="flickr"><i class="fa fa-flickr"></i></a></li>
+                        <li ><a class="tumblr"><i class="fa fa-tumblr"></i></a></li>
+                        <li ><a class="vk"><i class="fa fa-vk"></i></a></li>
+                        <li ><a class="vimeo"><i class="fa fa-vimeo-square"></i></a></li>
+                        <li ><a class="foursquare"><i class="fa fa-foursquare"></i></a></li>
+                        <li ><a class="likeit"><i class="fa fa-thumbs-o-up"></i></a></li>
+                        <li ><a class="envelope"><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                    
+                    <hr class="separator_mini">
+              
+            		<h4 class="font_medium_x"> Custom Image Social Icons </h4>
+
+                    <!-- Socialize icons-->
+                    <ul class="social_bookmarks padLeft_small" >
+                        <li class="twitter"><a title="twitter" >Follow us on Twitter</a></li>
+                        <li class="facebook"><a title="Facebook" >Join our Facebook Group</a></li>
+                        <li class="gplus"><a title="Google Plus" >Join me on Google Plus</a></li>
+                        <li class="linkedin"><a title="Linkedin" >Add me on Linkedin</a></li>
+                        <li class="rss"><a title="RSS" >RSS</a></li>
+                        <li class="digg"><a title="Digg" >Digg</a></li>
+                        <li class="delicious"><a title="delicious" >delicious</a></li>
+                        <li class="youtube"><a title="youtube" >youtube</a></li>
+                        <li class="vimeo"><a title="vimeo" >vimeo</a></li>
+                        <li class="skype"><a title="skype" >skype</a></li>
+                        <li class="dribbble"><a title="dribbble" >dribbble</a></li>        
+                        <li class="ichat"><a title="ichat" >ichat</a></li>
+                        <li class="deviantart"><a title="deviantart" >deviantart</a></li>
+                        <li class="stumbleupon"><a title="stumbleupon" >stumbleupon</a></li>
+                    </ul>
+                    <hr>
+				</div>
+             
+        	</div>
+
+		</div>
+        
+        </div>
+        
+        <div class="footer_holder">
+                <div class="fullWidth pad_large remove_topPadding remove_bottomPadding greyBackground" >    	        
+                    <div class="container-fluid top_bot_pad">
+                        <div class="row-fluid"> 
+                            <div class="col-md-4 text-center">
+                                <h6 class="pad_20"> ALL RIGHTS RESERVED © 2015 FMEDIAS</h6>
+                                </div>
+                            <div class="col-md-4 ">
+                                <h5 class="textAlignCenter pad_20">We make things better everyday</h5>
+                                </div>
+                            <div class="col-md-4 pad_20">
+                                <ul class="font_awesome addFxEmbossBtn alignRight"> 
+                                    <li ><a class="facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li ><a class="twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li ><a class="googleplus"><i class="fa fa-google-plus"></i></a></li>
+                                    <li ><a class="linkedin"><i class="fa fa-linkedin"></i></a></li> 
+                                    <li ><a class="dribbble"><i class="fa fa-dribbble"></i></a></li>
+                                </ul> 
+                                </div>
+                        </div>            
+                    </div>  
+            
+                </div>
+            </div>
+       
+        
+    </div>
+    
+    
+    
+    
+            
+            
+    
+	</div>
+	
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- Popup overly inline content is placed inside the below popup_inlines class div -->
+
+<div class="popup_inlines">
+    <div class="container" id="sample_popup_inline">
+    	<div class="col-md-3"></div>
+        <div class="col-md-6">
+        	<h4>Extended Portfolio</h4>
+        	<p>sunt in culpa qui officia deserunt mollit anim id est laborum.  irure dolor in pvelit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p class="tiny_font">Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+
+
+
+    <!-- Included javascript files 
+	================================================== -->
+    
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
+	<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+    <script type="text/javascript" src="js/jquery.transit.js"></script>    
+    <script type="text/javascript" src="js/jquery.browser.js"></script>    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>     
+
+    <script type="text/javascript" src="js/supersized.3.2.7.min.js"></script>
+    <script type="text/javascript" src="js/supersized.shutter.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquerypp.elastislide.custom.js" ></script>     
+    <script type="text/javascript" src="js/jquery.elastislide.js" ></script>       
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>   
+    <script type="text/javascript" src="js/portfolio.detail.min.js"></script>  
+    <script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+    <script type="text/javascript" src="js/jQuery.tubeplayer.js"></script>    
+    <script type="text/javascript" src="js/isotope-docs.js"></script>    
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.support.plugin.min.js"></script>
+    <script type="text/javascript" src="js/custom.min.js"></script> 
+    <script type="text/javascript" src="js/video.min.js"></script>
+    <script type="text/javascript" src="js/bigvideo.js"></script>    
+    <script type="text/javascript" src="js/main-fm.min.js"></script>
+
+    
+    
+	<script type="text/javascript">
+	
+			
+		$(document).ready(function(){
+				
+			/* Site Main plug-in initilize */
+				jQuery(function($){
+					$("body").mainFm({
+						
+						/* Set the opening page. 
+						leave it blank value if you need to show the home page as a opening page*/
+						currentPage : "shortcodes.html",
+						
+						/* FlexSlider slideshow speed */
+						slideshowSpeed : 5000
+						
+					});
+				});
+					
+		});	
+	
+
+		
+		
+		
+	</script>
+
+
+
+</body>
+
+
+</html>

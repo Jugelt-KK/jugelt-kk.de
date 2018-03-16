@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<template name="classical">
+	
+	<!-- type="Int" -->
+	<!-- type="Bool" -->
+	<!-- type="Float" -->
+	<!-- type="String" -->
+	<!-- type="Dynamic" -->
+	
+	<version type="mac">1.0</version>
+	
+	<component>
+		
+		<!-- Color Setting -->
+		<item type="Bool" name="hasFill">Yes</item>
+		<item type="Bool" name="hasStroke">No</item>
+		
+		<!-- Color Setting -->
+		<item type="Bool" name="eventFill">Yes</item>
+		<item type="Bool" name="eventStroke">Yes</item>
+		
+		<!-- Draw Setting -->
+		<item type="Bool" name="isEllipse">No</item>
+		<item type="Bool" name="isDrawFill">No</item>
+		<item type="Bool" name="isDrawOver">Yes</item>
+		<item type="Bool" name="isDrawDown">Yes</item>
+		<item type="Bool" name="isDrawCheck">Yes</item>
+		
+		<!-- share Round Setting -->
+		<item type="Float" name="roundWidth">4.0</item>
+		<item type="Float" name="roundHeight">4.0</item>
+				
+		<!-- Color Fill Setting -->
+		<item type="Int" name="fillColor">0xEDEDED</item>
+		<item type="Float" name="fillAlpha">0.40</item>
+		<item type="Int" name="fillStroke">0xAAAAAA</item>
+		<item type="Float" name="fillStrokePixel">1.0</item>
+		
+		<!-- Color Over Setting -->
+		<item type="Int" name="overColor">0xEDEDED</item>
+		<item type="Float" name="overAlpha">0.40</item>
+		<item type="Int" name="overStroke">0xAAAAAA</item>
+		<item type="Float" name="overStrokePixel">1.0</item>
+		
+		<!-- Color Down Setting -->
+		<item type="Int" name="downColor">0xDDDDDD</item>
+		<item type="Float" name="downAlpha">0.40</item>
+		<item type="Int" name="downStroke">0x999999</item>
+		<item type="Float" name="downStrokePixel">1.0</item>
+		
+		<!-- Color Check Setting -->
+		<item type="Int" name="checkColor">0xBDBDBD</item>
+		<item type="Float" name="checkAlpha">0.40</item>
+		<item type="Int" name="checkStroke">0x777777</item>
+		<item type="Float" name="checkStrokePixel">1.0</item>
+		
+		<!-- Color Disable Setting -->
+		<item type="Int" name="disableFill">0xEDEDED</item>
+		<item type="Float" name="disableAlpha">0.40</item>
+		<item type="Int" name="disableStroke">0xAAAAAA</item>
+		<item type="Float" name="disableStrokePixel">1.0</item>
+		
+	</component>
+
+	<config>
+		
+		<!-- has Share Setting -->
+		<item type="Bool" name="hasToolBar">Yes</item>
+		<item type="Bool" name="hasTitleBar">Yes</item>
+		
+		<!-- back Space Setting -->
+		<item type="Float" name="spaceTop">6</item>
+		<item type="Float" name="spaceLeft">6</item>
+		<item type="Float" name="spaceRight">6</item>
+		<item type="Float" name="spaceBottom">6</item>
+		<item type="Float" name="spaceLine">6</item>
+		
+		<!-- share Space Setting -->
+		<item type="Float" name="shareTop">4</item>
+		<item type="Float" name="shareLeft">4</item>
+		<item type="Float" name="shareRight">4</item>
+		<item type="Float" name="shareBottom">4</item>
+		<item type="Float" name="shareLine">2</item>
+		
+		<!-- Color fill Setting -->
+		<item type="Bool" name="shareHasFill">Yes</item>
+		<item type="Bool" name="shareHasStroke">Yes</item>
+		
+		<!-- Color Share Setting -->
+		<item type="Int" name="shareColor">0xededed</item>
+		<item type="Float" name="shareAlpha">0.50</item>
+		<item type="Int" name="shareStroke">0xAAAAAA</item>
+		<item type="Float" name="shareStrokePixel">1.0</item>
+
+		<!-- Color fill Setting -->
+		<item type="Bool" name="toolHasFill">Yes</item>
+		<item type="Bool" name="toolHasStroke">Yes</item>
+		
+		<!-- Color tool Setting -->
+		<item type="Int" name="toolColor">0xff0000</item>
+		<item type="Float" name="toolAlpha">0.50</item>
+		<item type="Int" name="toolStroke">0xAAAAAA</item>
+		<item type="Float" name="toolStrokePixel">1.0</item>
+
+		<!-- Color fill Setting -->
+		<item type="Bool" name="titleHasFill">Yes</item>
+		<item type="Bool" name="titleHasStroke">Yes</item>
+		
+		<!-- Color title Setting -->
+		<item type="Int" name="titleColor">0xff0000</item>
+		<item type="Float" name="titleAlpha">0.50</item>
+		<item type="Int" name="titleStroke">0xAAAAAA</item>
+		<item type="Float" name="titleStrokePixel">1.0</item>
+
+		<!-- Color fill Setting -->
+		<item type="Bool" name="flipHasFill">No</item>
+		<item type="Bool" name="flipHasStroke">No</item>
+		
+		<!-- Color flip rect Setting -->
+		<item type="Int" name="flipColor">0xffffff</item>
+		<item type="Float" name="flipAlpha">0.40</item>
+		<item type="Int" name="flipStroke">0xAAAAAA</item>
+		<item type="Float" name="flipStrokePixel">1.0</item>
+
+		<!-- Color fill Setting -->
+		<item type="Bool" name="thumbHasFill">Yes</item>
+		<item type="Bool" name="thumbHasStroke">Yes</item>
+		<item type="Bool" name="thumbIsVertical">No</item>
+		
+		<!-- Color thumb Setting -->
+		<item type="Int" name="thumbColor">0xedede0</item>
+		<item type="Float" name="thumbAlpha">0.40</item>
+		<item type="Int" name="thumbStroke">0xAAAAAA</item>
+		<item type="Float" name="thumbStrokePixel">1.0</item>
+
+		<!-- Color fill Setting -->
+		<item type="Bool" name="searchHasFill">Yes</item>
+		<item type="Bool" name="searchHasStroke">Yes</item>
+		<item type="Bool" name="searchIsLeft">Yes</item>
+		
+		<!-- Color search Setting -->
+		<item type="Int" name="searchColor">0xedede0</item>
+		<item type="Float" name="searchAlpha">0.40</item>
+		<item type="Int" name="searchStroke">0xAAAAAA</item>
+		<item type="Float" name="searchStrokePixel">1.0</item>
+		
+		<!-- Share Round Setting -->
+		<item type="Float" name="shareRoundWidth">6</item>
+		<item type="Float" name="shareRoundHeight">6</item>
+		
+		<!-- Share Rect Setting -->
+		<item type="Float" name="toolBarHeight">42</item>
+		<item type="Float" name="titleBarHeight">42</item>
+		
+		<!-- Bookmark Setting -->
+		<item type="Float" name="bookmarkWidth">420</item>
+		<item type="Bool" name="bookmarkIsLeft">No</item>
+		<item type="Bool" name="bookmarkHasFill">Yes</item>
+		<item type="Bool" name="bookmarkHasStroke">Yes</item>
+		
+		<!-- FlipBook Page Setting -->
+				
+		<!-- FlipBook Offset Setting -->
+		<item type="Float" name="flipbookLine">0.0</item>
+		<item type="Float" name="flipbookTop">12.0</item>
+		<item type="Float" name="flipbookLeft">34.0</item>
+		<item type="Float" name="flipbookRight">34.0</item>
+		<item type="Float" name="flipbookBottom">12.0</item>
+		
+		<!-- FlipBook Page Setting -->
+		
+		<!-- Color Page Setting -->
+		<item type="Bool" name="pageHasFill">Yes</item>
+		<item type="Bool" name="pageHasStroke">No</item>
+		
+		<!-- Color Page Setting -->
+		<item type="Int"    name="pageFillColor">0xFFFFFF</item>
+		<item type="Float" name="pageFillAlpha">0.9</item>
+		<item type="Int"    name="pageStrokeColor">0xFFFFFF</item>
+		<item type="Float" name="pageStrokePixel">1.0</item>
+		
+		<!-- Page Border Setting -->
+		<item type="Float" name="pageBorderTop">0.0</item>
+		<item type="Float" name="pageBorderLeft">0.0</item>
+		<item type="Float" name="pageBorderRight">0.0</item>
+		<item type="Float" name="pageBorderBottom">0.0</item>
+		
+		<!-- Page Algin Center used "In" or "Out" mode -->
+		<item type="Float" name="pageBorderCenter">0.0</item>
+		
+		<!-- Page Algin Setting -->
+		<item type="String" name="pageAlginModeHor">In</item>
+		<item type="String" name="pageAlginModeVer">Center</item>
+		
+		<!-- FlipBook Navgion Setting -->
+		
+		<!-- Book Step Setting -->
+		<item type="Float" name="bookStepWidth">30.0</item>
+		<item type="Float" name="bookGotoWidth">79.0</item>
+		<item type="Float" name="bookGotoHeight">280.0</item>
+		
+		<!-- Drag List Setting -->
+		<item type="Bool" name="dragIsShowStep">No</item>
+		<item type="Float" name="dragSpaceLine">6</item>
+		<item type="Float" name="dragSpaceStep">12</item>
+		<item type="Float" name="dragStepHeight">32</item>
+		<item type="Float" name="dragItemHeight">120</item>
+		<item type="Float" name="dragFrameHeight">132</item>
+		
+		<!-- Page Scale Setting -->
+		<item type="Float" name="scaleSpaceHor">100</item>
+		<item type="Float" name="scaleSpaceVer">100</item>
+		<item type="Bool" name="scaleIsOnePage">Yes</item>
+		<item type="Float" name="scaleRadioMin">0.04</item>
+		<item type="Float" name="scaleRadioMax">7.98</item>
+		<item type="Float" name="scaleRadioStep">0.20</item>
+		
+		<!-- FlipBook Link Setting -->
+		<!-- Color Link Setting -->
+		<item type="Int" name="linkOverFill">0x800080</item>
+		<item type="Float" name="linkOverAlpha">0.45</item>
+		<item type="Int" name="linkDownFill">0x0000FF</item>
+		<item type="Float" name="linkDownAlpha">0.45</item>
+		
+		<item type="String" name="linkOpenedWindow">Blank</item>
+		<item type="String" name="linkEnableWhenZoom">Enable</item>
+		
+	</config>
+	
+	<titlebar>
+		<!-- Title Bar Setting -->
+		<config>
+		<item type="" name="height">42.0</item>
+		<item type="" name="isEnable">Yes</item>	
+		<item type="" name="isVisible">Yes</item>
+		</config>
+		<controls>
+			
+		<!-- Left Controls -->	
+		<control visible="Yes" algin="left">
+			<enable>Yes</enable>
+			<type>first2.controls.TSImageSprite</type>
+			<stage imageStage="Auto" canCheck="No">
+				<image></image>
+				<imageDown></imageDown>
+				<languageKey>buttonLinkLogo</languageKey>
+			</stage>
+			<size width="180" height="40"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>gotoAppLogoLink</value>
+			</action>
+		</control>
+			
+		<!-- Right Controls -->
+        
+        <control visible="Yes" algin="right">
+            <enable>Yes</enable>
+            <type>first2.controls.TSButton</type>
+            <stage buttonStage="Auto" canCheck="Yes">
+                <iconKey>buttonSocialShare</iconKey>
+                <languageKey>buttonSocialShare</languageKey>
+            </stage>
+            <size width="32" height="32"></size>
+            <action eventType="mouseClick" actionType="templateEventType">
+                <value>onOffSocialShare</value>
+            </action>
+        </control>
+        
+        <control visible="Yes" algin="right">
+            <enable>Yes</enable>
+            <type>first2.controls.TSButton</type>
+            <stage buttonStage="Auto" canCheck="Yes">
+                <iconKey>buttonPrint</iconKey>
+                <languageKey>buttonPrint</languageKey>
+            </stage>
+            <size width="32" height="32"></size>
+            <action eventType="mouseClick" actionType="templateEventType">
+                <value>onOffPrint</value>
+            </action>
+        </control>
+			
+		<control visible="Yes" algin="right">
+            <enable>Yes</enable>
+            <type>first2.controls.TSButton</type>
+            <stage buttonStage="Auto" canCheck="Yes">
+                <iconKey>buttonDownload</iconKey>
+                <languageKey>buttonDownload</languageKey>
+            </stage>
+            <size width="32" height="32"></size>
+            <action eventType="mouseClick" actionType="templateEventType">
+                <value>onOffDownload</value>
+            </action>
+        </control>
+        
+		<control visible="Yes" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Auto" canCheck="Yes">
+				<iconKey>buttonSearch</iconKey>
+				<languageKey>buttonSearch</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffSearchList</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Auto" canCheck="Yes">
+				<iconKey>buttonBookmark</iconKey>
+				<languageKey>buttonBookmark</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffBookMark</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Auto" canCheck="Yes">
+				<iconKey>buttonSelectText</iconKey>
+				<languageKey>buttonSelectText</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffSelectText</value>
+			</action>
+		</control>
+
+		<control visible="Yes" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Auto" canCheck="Yes">
+				<iconKey>buttonFullScreen</iconKey>
+				<iconCheckKey>buttonExitFullScreen</iconCheckKey>
+				<languageKey>buttonFullScreen</languageKey>
+				<languageCheckKey>buttonExitFullScreen</languageCheckKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffFullScreen</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Auto" canCheck="Yes">
+				<iconKey>buttonSwitchLanguage</iconKey>
+				<languageKey>buttonSwitchLanguage</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffSwitchLanguage</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Auto" canCheck="Yes">
+				<iconKey>buttonThumbnails</iconKey>
+				<languageKey>buttonThumbnails</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffThumbnails</value>
+			</action>
+		</control>
+
+		</controls>
+	</titlebar>
+	
+	<toolbar>
+		<!-- Tool Bar Setting -->
+		<config>
+		<item type="" name="height">42.0</item>
+		<item type="" name="isEnable">Yes</item>
+		<item type="" name="isVisible">Yes</item>
+		</config>
+		
+		<controls>
+		<!-- Tool Bar Controls -->	
+		
+		<!-- Center Controls -->	
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="Yes">
+				<iconKey>buttonAutoFlip</iconKey>
+				<iconCheckKey>buttonStopAutoFlip</iconCheckKey>
+				<languageKey>buttonAutoFlip</languageKey>
+				<languageCheckKey>buttonStopAutoFlip</languageCheckKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>toggleAutoPlay</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="Yes">
+				<iconKey>buttonSoundOff</iconKey>
+				<iconCheckKey>buttonSoundOn</iconCheckKey>
+				<languageKey>buttonSoundOff</languageKey>
+				<languageCheckKey>buttonSoundOn</languageCheckKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>onOffFlipSound</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="No">
+				<iconKey>buttonFirstPage</iconKey>
+				<languageKey>buttonFirstPage</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>actionGotoFirst</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="No">
+				<iconKey>buttonPreviousPage</iconKey>
+				<languageKey>buttonPreviousPage</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>actionGotoPrev</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSPageNumberText</type>
+			<stage textStage="textField" canCheck="No">
+				<iconKey></iconKey>
+				<languageKey></languageKey>
+				<textColor>0x000000</textColor>
+				<textSize>12</textSize>
+			</stage>
+			<size width="100" height="32"></size>
+			<action eventType="onEnter" actionType="templateEventType">
+				<value>actionGotoIndex</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="No">
+				<iconKey>buttonNextPage</iconKey>
+				<languageKey>buttonNextPage</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>actionGotoNext</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="No">
+				<iconKey>buttonLastPage</iconKey>
+				<languageKey>buttonLastPage</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>actionGotoLast</value>
+			</action>
+		</control>
+		
+		<control visible="Yes" algin="center">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="Yes">
+				<iconKey>buttonZoomIn</iconKey>
+				<iconCheckKey>buttonZoomOut</iconCheckKey>
+				<languageKey>buttonZoomIn</languageKey>
+				<languageCheckKey>buttonZoomOut</languageCheckKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>toggleZoomInOut</value>
+			</action>
+		</control>
+		
+		<!-- Right Controls -->	
+
+		<control visible="No" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="No">
+				<iconKey>buttonZoomUp</iconKey>
+				<languageKey>buttonZoomIn</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>actionZoomInInc</value>
+			</action>
+		</control>
+		
+		<control visible="No" algin="right">
+			<enable>Yes</enable>
+			<type>first2.controls.TSButton</type>
+			<stage buttonStage="Image" canCheck="No">
+				<iconKey>buttonZoomDown</iconKey>
+				<languageKey>buttonZoomOut</languageKey>
+			</stage>
+			<size width="32" height="32"></size>
+			<action eventType="mouseClick" actionType="templateEventType">
+				<value>actionZoomInDec</value>
+			</action>
+		</control>
+		
+		</controls>
+	</toolbar>
+	
+	<flipbook>
+		<!-- Flip Book Setting -->
+		<config>
+		<item type="Bool" name="flipIsEnable">Yes</item>
+		<item type="Bool" name="flipIsVisible">Yes</item>
+		<item type="Bool" name="flipIsOpenFirst">No</item>
+		</config>
+		
+		<controls>
+			
+		</controls>
+	</flipbook>
+	
+	<thumbnails>
+		<!-- Thumb List Setting -->
+		<config>
+		// <!-- ThumbBar Bar Settion -->
+		<item type="Float" name="thumbBarHeight">134.0</item>
+		
+		<item type="Bool" name="thumbIsEnable">Yes</item>
+		<item type="Bool" name="thumbIsVisible">Yes</item>
+		<item type="Float" name="thumbSpaceLine">6</item>
+		<item type="Float" name="thumbSpaceStep">6</item>
+		<item type="Float" name="thumbStepHeight">32</item>
+		<item type="Float" name="thumbItemHeight">120</item>
+		<item type="Float" name="thumbFrameHeight">132</item>
+		
+		</config>
+		
+	</thumbnails>
+		
+	<searchlist>
+		<!-- Search List Setting -->
+		<config>
+			
+		// <!-- Search Bar Settion -->
+		<item type="Float" name="searchBarHeight">252.0</item>
+		
+		<item type="Bool" name="searchIsEnable">Yes</item>
+		<item type="Float" name="searchIsVisible">Yes</item>
+		<item type="Float" name="searchLineSpace">6</item>
+		<item type="Float" name="searchStepSpace">12</item>
+		<item type="Float" name="searchStepHeight">32</item>
+		<item type="Float" name="searchItemHeight">80</item>
+		<item type="Float" name="searchFrameHeight">112</item>
+		<item type="Float" name="searchTextHeight">22</item>
+		<item type="Float" name="searchInputHeight">32</item>
+		<item type="Float" name="searchButtonHeight">32</item>
+		<item type="Float" name="searchIconTopSpace">6</item>
+		<item type="Float" name="searchIconLeftSpace">8</item>
+		<item type="Float" name="searchIconRightSpace">6</item>
+		<item type="Float" name="searchIconBottomSpace">16</item>	
+		
+		</config>
+		
+	</searchlist>
+	
+	<resource>
+		<!-- Book Bin Setting -->
+		<item type="String" name="BookXmlUrl">./file/book.xml</item>
+		
+		<!-- Book Text Setting -->
+		<item type="String" name="BookTextFileUrl">./file/texts/BookText.xml</item>
+		<item type="String" name="BookTextIndexPath">./file/texts/</item>
+		<item type="String" name="BookTextIndexFile">text{0}.xml</item>
+		
+		<!-- Control Source Setting -->
+		<item type="String" name="pageGotoLeft">./template/{0}/images/left2.png</item>
+		<item type="String" name="pageGotoRight">./template/{0}/images/right2.png</item>
+		
+		<item type="String" name="baseStepTop">./template/{0}/images/icons/top2.png</item>
+		<item type="String" name="baseStepTopDown">./template/{0}/images/icons/top_white.png</item>
+		<item type="String" name="baseStepLeft">./template/{0}/images/icons/prev2.png</item>
+		<item type="String" name="baseStepLeftDown">./template/{0}/images/icons/prev_white.png</item>
+		<item type="String" name="baseStepRight">./template/{0}/images/icons/next2.png</item>
+		<item type="String" name="baseStepRightDown">./template/{0}/images/icons/next_white.png</item>
+		<item type="String" name="baseStepBottom">./template/{0}/images/icons/bottom2.png</item>
+		<item type="String" name="baseStepBottomDown">./template/{0}/images/icons/bottom_white.png</item>
+		
+		<item type="String" name="buttonExpanded">./template/{0}/icons/ic_expanded_black_18dp.png</item>
+		<item type="String" name="buttonCollapsed">./template/{0}/icons/ic_collapsed_black_18dp.png</item>
+		
+		<!-- Control Source Setting -->
+		<item type="String" name="buttonFirstPage">./template/{0}/icons/ic_skip_previous_black_24dp.png</item>
+		<item type="String" name="buttonPreviousPage">./template/{0}/icons/ic_fast_rewind_black_24dp.png</item>
+		<item type="String" name="buttonNextPage">./template/{0}/icons/ic_fast_forward_black_24dp.png</item>
+		<item type="String" name="buttonLastPage">./template/{0}/icons/ic_skip_next_black_24dp.png</item>
+		<item type="String" name="buttonSearch">./template/{0}/icons/ic_search_black_24dp.png</item>
+		<item type="String" name="buttonBookmark">./template/{0}/icons/ic_view_list_black_24dp.png</item>
+		<item type="String" name="buttonFullScreen">./template/{0}/icons/ic_fullscreen_black_24dp.png</item>
+		<item type="String" name="buttonExitFullScreen">./template/{0}/icons/ic_fullscreen_exit_black_24dp.png</item>
+		<item type="String" name="buttonSwitchLanguage">./template/{0}/icons/ic_flag_black_24dp.png</item>
+		<item type="String" name="buttonThumbnails">./template/{0}/icons/ic_view_module_black_24dp.png</item>
+		<item type="String" name="buttonAutoFlip">./template/{0}/icons/ic_play_circle_outline_black_24dp.png</item>
+		<item type="String" name="buttonStopAutoFlip">./template/{0}/icons/ic_pause_circle_outline_black_24dp.png</item>
+		<item type="String" name="buttonSoundOff">./template/{0}/icons/ic_volume_up_black_24dp.png</item>
+		<item type="String" name="buttonSoundOn">./template/{0}/icons/ic_volume_off_black_24dp.png</item>
+		<item type="String" name="buttonZoomIn">./template/{0}/icons/ic_add_circle_outline_black_24dp.png</item>
+		<item type="String" name="buttonZoomOut">./template/{0}/icons/ic_highlight_remove_black_24dp.png</item>
+		<item type="String" name="buttonZoomUp">./template/{0}/icons/zoom-in-2x.png</item>
+		<item type="String" name="buttonZoomDown">./template/{0}/icons/zoom-out-2x.png</item>
+		<item type="String" name="buttonSelectText">./template/{0}/icons/select-text-2x.png</item>
+        <item type="String" name="buttonSocialShare">./template/{0}/icons/ic_share_black_24dp.png</item>
+        <item type="String" name="buttonPrint">./template/{0}/icons/ic_print_black_24dp.png</item>
+		<item type="String" name="buttonDownload">./template/{0}/icons/ic_file_download_black_24dp.png</item>
+		
+	</resource>
+
+	<contents>
+		
+	</contents>
+	
+</template>
